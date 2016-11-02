@@ -10,7 +10,7 @@ dockip() {
     else
         CONTAINER_NAME="$@"
     fi
-    CONTAINER_IP=$(docker inspect --format '{{ .NetworkSettings.IPAddress }}' ${CONTAINER_NAME})
+    CONTAINER_IP=$(docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ${CONTAINER_NAME})
     echo ${CONTAINER_IP} | xclip -sel c
     echo ${CONTAINER_IP}
 }
@@ -18,7 +18,6 @@ dockip() {
 # Argument is number of xtm nodes to start
 run_xtm_nodes() {
     for i in `seq 1 $1`; do
-        echo "hej"
         NODE_ID=$(docker run -d artifactory.transmode.se/tm3k/trunk-hostenv)
         echo ${NODE_ID}
         dockip
