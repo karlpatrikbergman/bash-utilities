@@ -1,0 +1,11 @@
+To make these utility functions available from bash command line
+put them in appropriate directory and add this to your ~/.bashrc
+
+if [ -d /some/directory/bash-utilities/functions ]; then
+    for file in /some/directory/bash-utilities/functions/*; do
+        . "$file"
+    done
+fi
+
+And run
+$ source ~/.bashrc
