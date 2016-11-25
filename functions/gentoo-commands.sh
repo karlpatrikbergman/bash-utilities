@@ -1,5 +1,12 @@
 #!/bin/bash - 
 
+function install_hipchat() {
+    sudo layman -a hossie
+    sudo eix-sync
+    sudo emerge --autounmask-write net-im/hipchat
+    sudo emerge net-im/hipchat
+}
+
 function install_custom_packages() {
     sudo emerge --autounmask-write \
     app-admin/pass \
@@ -11,6 +18,7 @@ function install_custom_packages() {
     dev-java/maven-bin \
     net-analyzer/wireshark \
     app-misc/tmux
+    install_hipchat()
 }
 
 function add_me_to_usergroups() {
