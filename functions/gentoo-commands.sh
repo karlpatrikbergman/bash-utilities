@@ -18,7 +18,6 @@ function install_custom_packages() {
     dev-java/maven-bin \
     net-analyzer/wireshark \
     app-misc/tmux
-    install_hipchat()
 }
 
 function add_me_to_usergroups() {
