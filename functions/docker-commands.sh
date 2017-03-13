@@ -18,14 +18,18 @@ dockip() {
 # Argument is number of xtm nodes to start
 run_xtm_nodes() {
     for i in `seq 1 $1`; do
-        NODE_ID=$(docker run -d se-artif-prd.infinera.com/tm3k/trunk-hostenv)
+        NODE_ID=$(docker run -d se-artif-prd.infinera.com/tm3k/trunk-hostenv:28.1)
         echo ${NODE_ID}
         dockip
     done
 }
 
-rm_docker_containers() {
-    docker ps -q -a | xargs docker rm
+rm_stopped_docker_containers() {
+    docker ps -q -f status=exited | xargs docker rm
+}
+
+rm_all_docker_containers() {
+    docker ps -q -a | xargs docker rm -f
 }
 
 rm_dangling_volumes() {
@@ -57,8 +61,9 @@ docker_clean_up() {
 }
 
 docker_clean_up_everything() {
+    rm_all_docker_containers
     docker_clean_up
-    docker rmi -f $(docker images -q)
+
 }
 
 # Good if you want to see daemon logging
