@@ -18,9 +18,8 @@ dockip() {
 # Argument is number of xtm nodes to start
 run_xtm_nodes() {
     for i in `seq 1 $1`; do
-        NODE_ID=$(docker run -d se-artif-prd.infinera.com/tm3k/trunk-hostenv:28.1)
+        NODE_ID=$(docker run -e "DEMO=true" -e "NOSIM=1" --privileged -dit se-artif-prd.infinera.com/tm3k/trunk-hostenv:latest)
         echo ${NODE_ID}
-        dockip
     done
 }
 
