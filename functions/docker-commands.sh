@@ -4,19 +4,21 @@
 # Copy ip address to clipboard
 # Print ip address in terminal
 dockip() {
+    local CONTAINER_NAME
     if [ $# -eq 0 ]
     then
         CONTAINER_NAME=$(docker ps -q)
     else
         CONTAINER_NAME="$@"
     fi
-    CONTAINER_IP=$(docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ${CONTAINER_NAME})
+    local readonly CONTAINER_IP=$(docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ${CONTAINER_NAME})
     echo ${CONTAINER_IP} | xclip -sel c
     echo ${CONTAINER_IP}
 }
 
 # Argument is number of xtm nodes to start
 run_xtm_nodes() {
+    local NODE_ID
     for i in `seq 1 $1`; do
         NODE_ID=$(docker run -e "DEMO=true" -e "NOSIM=1" --privileged -dit se-artif-prd.infinera.com/tm3k/trunk-hostenv:latest)
         echo ${NODE_ID}
@@ -68,4 +70,41 @@ docker_clean_up_everything() {
 # Good if you want to see daemon logging
 run_docker_daemon() {
     /etc/init.d/docker start
+}
+
+# Example:
+# create_docker_alias pabe_test_machine tcp://172.16.15.230:2376 /home/qpabe/.docker/machine/machines/pabe-test-machine
+#
+# Remove alias:
+# unalias alias-name
+#
+# Removes All aliases:
+# alias -a
+create_docker_alias() {
+    if [ "$#" -ne 3 ]; then
+        printf "Usage: create_docker_alias <alias> <remote-host> <cert-path>"
+    fi
+    local readonly ALIAS="${1}"
+    local readonly REMOTE_HOST="${2}"
+    local readonly CERT_PATH="${3}"
+    alias ${ALIAS}="docker --tlsverify -H=${REMOTE_HOST} \
+        --tlscacert=${CERT_PATH}/ca.pem \
+        --tlscert=${CERT_PATH}/cert.pem \
+        --tlskey=${CERT_PATH}/key.pem"
+}
+
+create_alias_docker_pabe_test_machine() {
+    create_docker_alias pabe_test_machine tcp://172.16.15.230:2376 /home/qpabe/.docker/machine/machines/pabe-test-machine
+}
+
+get_container_ip_address() {
+    if [ "$#" -eq 1 ]; then
+        printf "one argument\n"
+        docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' "${1}"
+    elif [ "$#" -eq 2 ]; then
+        eval "${1} inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ${2}"
+    else
+        printf "Usage with local docker host: get_container_ip_address <container-name>\n"
+        printf "Usage with alias set to remote docker host: get_container_ip_address <docker-alias> <container-name>\n"
+    fi
 }
