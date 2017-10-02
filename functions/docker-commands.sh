@@ -99,7 +99,6 @@ create_alias_docker_pabe_test_machine() {
 
 get_container_ip_address() {
     if [ "$#" -eq 1 ]; then
-        printf "one argument\n"
         docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' "${1}"
     elif [ "$#" -eq 2 ]; then
         eval "${1} inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ${2}"
