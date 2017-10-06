@@ -2,6 +2,8 @@
 
 #set -o nounset # Treat unset variables as an error
 
+# TODO: Verify that it actually works!
+
 # Connect current shell to a docker-machine
 docker_machine_connect() {
     if [ -z "$1" ] ; then
@@ -42,6 +44,21 @@ docker_machine_create_on_remote_host() {
       --generic-ssh-user ${A_USER_ON_HOST} \
       --generic-ssh-port ${SSH_PORT} \
         ${DOCKER_MACHINE_NAME}
+}
+
+docker_machine_create_on_remote_host_default() {
+    if [[ $# -gt 1 ]] ; then
+        printf "Usage: ${FUNCNAME[0]}\n or"
+        printf "Usage: ${FUNCNAME[0]} <ip-address>>\n"
+        return 1
+    fi
+    local final readonly HOST
+    if [[ $# -eq 1 ]] ; then
+        HOST="${1}"
+    else
+        HOST="centos-dockerized-host"
+    fi
+    docker_machine_create_on_remote_host ${HOST} ~/.ssh/id_rsa root 22 centos-docker-machine-1
 }
 
 docker_machine_copy_public_ssh_key_to_vm() {
@@ -85,10 +102,24 @@ restart_docker_daemon() {
     ssh ${USER_AT_HOST} sudo systemctl restart docker
 }
 
+#TODO: Make it work
+#TODO: Check if already written
+fix_x11_forwarding_error() {
+    if [[ $# -ne 1 ]] ; then
+        printf "Usage: ${FUNCNAME[0]} <sudouser@systemddhost>\n"
+        return 1
+    fi
+    local readonly USER_AT_HOST="${1}"
+
+    ssh ${USER_AT_HOST} sudo echo X11Forwarding yes >> /etc/ssh/ssh_config
+    ssh ${USER_AT_HOST} sudo echo X11UseLocalhost no >> /etc/ssh/ssh_config
+    ssh ${USER_AT_HOST} sudo systemctl restart sshd
+}
+
 docker_machine_fix_vm_before_docker_engine_installation() {
     if [[ $# -ne 3 ]] ; then
         printf "Usage: ${FUNCNAME[0]} <path-to-public-ssh-key> <user@host> <password>\n"
-        printf "Example: ${FUNCNAME[0]} ~/.ssh/id_rsa.pub pabe@172.16.15.144 some-password\n"
+        printf "Example: ${FUNCNAME[0]} ~/.ssh/id_rsa.pub root@172.16.15.144 some-password\n"
         return 1
     fi
     local readonly PATH_TO_SSH_KEY="${1}"
@@ -99,4 +130,20 @@ docker_machine_fix_vm_before_docker_engine_installation() {
     install_net_tools ${USER_AT_HOST}
     stop_firewalld ${USER_AT_HOST}
     restart_docker_daemon ${USER_AT_HOST}
+}
+
+docker_machine_fix_vm_before_docker_engine_installaion_default() {
+    if [[ $# -gt 1 ]] ; then
+        printf "Usage: ${FUNCNAME[0]}\n or"
+        printf "Usage: ${FUNCNAME[0]} <ip-address>>\n"
+        return 1
+    fi
+    local final readonly HOST
+    if [[ $# -eq 1 ]] ; then
+        HOST="${1}"
+    else
+        HOST="centos-dockerized-host"
+    fi
+
+     docker_machine_fix_vm_before_docker_engine_installation ~/.ssh/id_rsa.pub root@${HOST} transmode
 }
