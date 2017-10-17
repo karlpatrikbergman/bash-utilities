@@ -1,42 +1,49 @@
 #!/usr/bin/env bash
 
-# Retrieve ip address of docker container. If no argument is provided get ip address for last started container
-# Copy ip address to clipboard
-# Print ip address in terminal
-dockip() {
-    local CONTAINER_NAME
-    if [ $# -eq 0 ]
-    then
-        CONTAINER_NAME=$(docker ps -q)
-    else
-        CONTAINER_NAME="$@"
+#export PS4='+(${BASH_SOURCE}:${LINENO}): ${FUNCNAME[0]:+${FUNCNAME[0]}(): }'
+#set -x
+
+docker_get_ip_address() {
+    if [ "$#" -ne 1 ]; then
+        printf "Usage: ${FUNCNAME[0]} <container-name>\n"
     fi
-    local readonly CONTAINER_IP=$(docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ${CONTAINER_NAME})
-    echo ${CONTAINER_IP} | xclip -sel c
-    echo ${CONTAINER_IP}
+    local readonly CONTAINER_NAME="${1}"
+    docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ${CONTAINER_NAME}
 }
 
-# Argument is number of xtm nodes to start
-run_xtm_nodes() {
-    local NODE_ID
-    for i in `seq 1 $1`; do
-        NODE_ID=$(docker run -e "DEMO=true" -e "NOSIM=1" --privileged -dit se-artif-prd.infinera.com/tm3k/trunk-hostenv:latest)
-        echo ${NODE_ID}
+docker_run_x_nr_of_containers() {
+  if [[ $# -lt 2 ]] ; then
+        printf "Usage: ${FUNCNAME[0]} <docker-image> <nr-of-containers-to-run>\n"
+        return 1
+    fi
+    local readonly DOCKER_IMAGE="${1}"
+    local readonly NR_OF_CONTAINERS_TO_RUN="${2}"
+    local CONTAINER_ID CONTAINER_NAME CONTAINER_IP
+    for i in `seq 1 ${NR_OF_CONTAINERS_TO_RUN}`; do
+        CONTAINER_ID=$(docker run  --privileged -dit ${DOCKER_IMAGE})
+
+        CONTAINER_NAME=$(docker inspect --format='{{.Name}}' ${CONTAINER_ID})
+        CONTAINER_NAME=${CONTAINER_NAME#"/"}
+
+        CONTAINER_IP=$(docker_get_ip_address ${CONTAINER_NAME})
+        CONTAINER_IP=${CONTAINER_IP#"/"}
+
+        printf "${CONTAINER_NAME} : ${CONTAINER_IP}\n"
+
     done
 }
 
-rm_stopped_docker_containers() {
+docker_remove_stopped_containers() {
     docker ps -q -f status=exited | xargs docker rm
 }
 
-rm_all_docker_containers() {
+docker_remove_all_containers() {
     docker ps -q -a | xargs docker rm -f
 }
 
-rm_dangling_volumes() {
+docker_remove_dangling_volumes() {
     docker volume rm $(docker volume ls -qf dangling=true)
 }
-#rm_dangling_volumes
 
 # ABOUT UNTAGGED IMAGES
 # $ docker images --filter "dangling=true"
@@ -62,13 +69,13 @@ docker_clean_up() {
 }
 
 docker_clean_up_everything() {
-    rm_all_docker_containers
+    docker_remove_all_containers
     docker_clean_up
 
 }
 
 # Good if you want to see daemon logging
-run_docker_daemon() {
+docker_run_daemon() {
     /etc/init.d/docker start
 }
 
@@ -80,7 +87,7 @@ run_docker_daemon() {
 #
 # Removes All aliases:
 # alias -a
-create_docker_alias() {
+docker_create_alias() {
     if [ "$#" -ne 3 ]; then
         printf "Usage: create_docker_alias <alias> <remote-host> <cert-path>"
     fi
@@ -91,19 +98,4 @@ create_docker_alias() {
         --tlscacert=${CERT_PATH}/ca.pem \
         --tlscert=${CERT_PATH}/cert.pem \
         --tlskey=${CERT_PATH}/key.pem"
-}
-
-create_alias_docker_pabe_test_machine() {
-    create_docker_alias pabe_test_machine tcp://172.16.15.230:2376 /home/qpabe/.docker/machine/machines/pabe-test-machine
-}
-
-get_container_ip_address() {
-    if [ "$#" -eq 1 ]; then
-        docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' "${1}"
-    elif [ "$#" -eq 2 ]; then
-        eval "${1} inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ${2}"
-    else
-        printf "Usage with local docker host: get_container_ip_address <container-name>\n"
-        printf "Usage with alias set to remote docker host: get_container_ip_address <docker-alias> <container-name>\n"
-    fi
 }

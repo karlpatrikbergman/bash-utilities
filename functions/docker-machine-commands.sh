@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-#set -o nounset # Treat unset variables as an error
-
 # TODO: Verify that it actually works!
 
 # Connect current shell to a docker-machine
@@ -119,7 +117,6 @@ fix_x11_forwarding_error() {
 docker_machine_fix_vm_before_docker_engine_installation() {
     if [[ $# -ne 3 ]] ; then
         printf "Usage: ${FUNCNAME[0]} <path-to-public-ssh-key> <user@host> <password>\n"
-        printf "Example: ${FUNCNAME[0]} ~/.ssh/id_rsa.pub root@172.16.15.144 some-password\n"
         return 1
     fi
     local readonly PATH_TO_SSH_KEY="${1}"
@@ -145,5 +142,5 @@ docker_machine_fix_vm_before_docker_engine_installaion_default() {
         HOST="centos-dockerized-host"
     fi
 
-     docker_machine_fix_vm_before_docker_engine_installation ~/.ssh/id_rsa.pub root@${HOST} transmode
+    docker_machine_fix_vm_before_docker_engine_installation ~/.ssh/id_rsa.pub root@${HOST} transmode
 }

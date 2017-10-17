@@ -1,10 +1,10 @@
 #!/bin/bash - 
 
-list_java_pids() {
+java_list_pids() {
     ps aux | grep jav[a] | awk '{print $1}'
 }    
 
-kill_java_processes() {
+java_kill_processes() {
     ps aux | grep jav[a] | awk '{print $2}' | xargs kill
 }    
 
