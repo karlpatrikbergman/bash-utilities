@@ -12,24 +12,27 @@ docker_get_ip_address() {
 }
 
 docker_run_x_nr_of_containers() {
-  if [[ $# -lt 2 ]] ; then
-        printf "Usage: ${FUNCNAME[0]} <docker-image> <nr-of-containers-to-run>\n"
+    if [[ $# -lt 2 ]] ; then
+        printf "Usage: ${FUNCNAME[0]} <docker-image> <nr-of-containers-to-run> <docker-environment-vars>\n"
+        printf "Example: ${FUNCNAME[0]} se-artif-prd.infinera.com/tm3k/trunk-hostenv:29.0 2 DEMO=true NOSIM=1\n"
+        printf "<docker-environment-vars> are optional\n"
         return 1
     fi
     local readonly DOCKER_IMAGE="${1}"
     local readonly NR_OF_CONTAINERS_TO_RUN="${2}"
+    local DOCKER_ENV_VARS
+    for i in ${@:3}
+    do
+        DOCKER_ENV_VARS+=" -e ${i}"
+    done
     local CONTAINER_ID CONTAINER_NAME CONTAINER_IP
     for i in `seq 1 ${NR_OF_CONTAINERS_TO_RUN}`; do
-        CONTAINER_ID=$(docker run  --privileged -dit ${DOCKER_IMAGE})
-
+        CONTAINER_ID=$(docker run --privileged -dit ${DOCKER_ENV_VARS} ${DOCKER_IMAGE})
         CONTAINER_NAME=$(docker inspect --format='{{.Name}}' ${CONTAINER_ID})
         CONTAINER_NAME=${CONTAINER_NAME#"/"}
-
         CONTAINER_IP=$(docker_get_ip_address ${CONTAINER_NAME})
         CONTAINER_IP=${CONTAINER_IP#"/"}
-
         printf "${CONTAINER_NAME} : ${CONTAINER_IP}\n"
-
     done
 }
 
@@ -71,6 +74,7 @@ docker_clean_up() {
 docker_clean_up_everything() {
     docker_remove_all_containers
     docker_clean_up
+    docker network prune -f
 
 }
 
