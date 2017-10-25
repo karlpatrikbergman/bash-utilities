@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-#export PS4='+(${BASH_SOURCE}:${LINENO}): ${FUNCNAME[0]:+${FUNCNAME[0]}(): }'
-#set -x
+# export PS4='+(${BASH_SOURCE}:${LINENO}): ${FUNCNAME[0]:+${FUNCNAME[0]}(): }'
+# set -x
 
 docker_get_ip_address() {
     if [ "$#" -ne 1 ]; then
@@ -21,10 +21,12 @@ docker_run_x_nr_of_containers() {
     local readonly DOCKER_IMAGE="${1}"
     local readonly NR_OF_CONTAINERS_TO_RUN="${2}"
     local DOCKER_ENV_VARS
+
     for i in ${@:3}
     do
         DOCKER_ENV_VARS+=" -e ${i}"
     done
+
     local CONTAINER_ID CONTAINER_NAME CONTAINER_IP
     for i in `seq 1 ${NR_OF_CONTAINERS_TO_RUN}`; do
         CONTAINER_ID=$(docker run --privileged -dit ${DOCKER_ENV_VARS} ${DOCKER_IMAGE})
