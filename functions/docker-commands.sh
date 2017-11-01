@@ -42,8 +42,8 @@ docker_remove_stopped_containers() {
     docker ps -q -f status=exited | xargs docker rm
 }
 
-docker_remove_all_containers() {
-    docker ps -q -a | xargs docker rm -f
+docker_remove_all_containers_and_associated_volumes() {
+    docker rm --force --volumes $(docker ps --quiet --all --no-trunc)
 }
 
 docker_remove_dangling_volumes() {
@@ -58,26 +58,17 @@ docker_remove_dangling_volumes() {
 # <none>:<none> or untagged. A warning will be issued if trying to remove an image when a container is
 # presently using it. By having this flag it allows for batch cleanup like:
 # $ docker rmi $(docker images -f "dangling=true" -q)
-
-docker_clean_up() {
-    #Delete containers and hopefully dangling volumes too?
-    docker rm -v $(docker ps -a -q -f status=exited)
-
-    #Delete all dangling images
-    docker rmi $(docker images -f "dangling=true" -q)
-    #or some one suggested
+docker_remove_dangling_images() {
+    docker rmi $(docker images --filter "dangling=true" --quiet --no-trunc)
+    #alternative
     #docker images -q --filter "dangling=true" | xargs -n1 -r docker rmi)
-
-    #Remove unwanted volumes filling up in your disk
-    #Maybe already done above, but just in case
-    docker volume rm $(docker volume ls -qf dangling=true)
 }
 
 docker_clean_up_everything() {
-    docker_remove_all_containers
-    docker_clean_up
+    docker_remove_all_containers_and_associated_volumes
+    docker_remove_dangling_volumes
+    docker_remove_dangling_images
     docker network prune -f
-
 }
 
 # Good if you want to see daemon logging
