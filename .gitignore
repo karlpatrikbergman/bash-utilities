@@ -47,4 +47,4 @@ fabric.properties
 
 /.idea/
 /bash-utilities.iml
-/origins.txt
+/push_to_infinera_and_github.sh
