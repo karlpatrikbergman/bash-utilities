@@ -1,0 +1,147 @@
+{
+  "_index": "content-dmedia1",
+  "_type": "content",
+  "_id": "dmedia.klara.34bb0a7d-8c56-44ad-be9a-2963a6e46752",
+  "_version": 7,
+  "found": true,
+  "_source": {
+    "id": "dmedia.klara.34bb0a7d-8c56-44ad-be9a-2963a6e46752",
+    "objectType": "article",
+    "document": {
+      "type": "article",
+      "id": "dmedia.klara.34bb0a7d-8c56-44ad-be9a-2963a6e46752",
+      "url": "/nyheter/ai-podden/deepminds-forsta-kommersiella-produkt-diagnostiserar-ogonsjukdomar/",
+      "articleTypes": [
+        "standard"
+      ],
+      "sectionPath": [
+        {
+          "id": "dmedia.contentful.5Gwfn6wPJugsS0mWSEUueC",
+          "name": "AI-podden",
+          "url": "/ai-podden/"
+        },
+        {
+          "id": "dmedia.contentful.66h1yfZosMeU6amwkOkEIu",
+          "name": "Övriga nyheter",
+          "url": "/ovriga-nyheter/"
+        }
+      ],
+      "headlineHtml": "DeepMinds första kommersiella produkt diagnostiserar ögonsjukdomar",
+      "topParts": [
+        {
+          "type": "image",
+          "id": "dmedia.klara.b49f849b-d451-49c2-ae0a-488d24dd2c6e",
+          "url": "https://cached-images.bonnier.news/swift/bilder-stage/media/c3e39430271e1000f7415e5636f45aa1.jpg",
+          "captionHtml": "DeepMind förbereder sig för att lansera sin första kommersiella produkt och syftar till att hjälpa diagnosen komplexa ögonsjukdomar.",
+          "imageType": "foto",
+          "author": "Linn Lindberg",
+          "width": 1200,
+          "height": 675
+        }
+      ],
+      "leadHtml": "DeepMind förbereder sig för att lansera sin första kommersiella produkt och syftar till att hjälpa diagnosen komplexa ögonsjukdomar. \nDe berömda Cambridge-baserade artificiella intelligensexperterna hoppas att deras produkt blir moderbolagets alfabetets första medicinska apparat.",
+      "publicationTime": "2019-04-08T13:47:43.914+02:00",
+      "updateTime": null,
+      "bodyParts": [
+        {
+          "type": "paragraph",
+          "bodyHtml": "en levande demonstration hade en patient en retinal scan utförd på ögat. DeepMinds system kunde ge en diagnos och ”brådskande poäng” på bara 30 sekunder.&nbsp;"
+        },
+        {
+          "type": "paragraph",
+          "bodyHtml": "Möjligheten att utföra en sådan snabb diagnos kommer att frigöra läkarnas värdefulla tid för andra ändamål och se till att patienterna får behandling så snart som möjligt.&nbsp;"
+        },
+        {
+          "type": "adspart",
+          "index": 1
+        },
+        {
+          "type": "subheading",
+          "text": "En mellanrubrik"
+        },
+        {
+          "type": "paragraph",
+          "bodyHtml": "Ett antal ögonsjukdomar kan redan diagnostiseras av DeepMinds system inklusive glaukom, makuladegeneration och diabetisk retinopati.&nbsp;"
+        },
+        {
+          "type": "paragraph",
+          "bodyHtml": "Utvecklat i samband med Londons Moorfields Eye Hospital, har systemet samma nivå av noggrannhet som världens ledande specialister.&nbsp;"
+        },
+        {
+          "type": "paragraph",
+          "bodyHtml": "Såsom robotteknik och 5G förväntas hjälpa patienter i landsbygdsområden få tillgång till världsledande experter, kommer AI-system som DeepMinds test att ge den snabbaste och mest exakta diagnosen medicinska problem oavsett var patienten är.&nbsp;"
+        },
+        {
+          "type": "factbox",
+          "id": null,
+          "vignetteHtml": "",
+          "titleHtml": "En faktaruta",
+          "bodyHtml": "<p>Lite faktatext, bla bla</p> <p>Test test</p>",
+          "images": []
+        },
+        {
+          "type": "paragraph",
+          "bodyHtml": "Produkten utvecklas av DeepMind Health. Dotterbolaget har fått sin rättvisa andel av kritiken efter att den brittiska regeringen beslutade att företaget hade fått olämplig tillgång till medicinska data från 1,6 miljoner patienter när man utvecklade sin Streams app.&nbsp;"
+        },
+        {
+          "type": "adspart",
+          "index": 2
+        },
+        {
+          "type": "paragraph",
+          "bodyHtml": "När en gång pratar om en 100 procent anställd retention, talang har börjat läcka från DeepMind de senaste månaderna. Vissa tror att backlashen från Streams-kontroversen har gjort det svårare för DeepMind att hitta villiga och krävande partners inom medicinsk industri.&nbsp;"
+        },
+        {
+          "type": "paragraph",
+          "bodyHtml": "DeepMind publicerade första gången detaljer om sin forskning i naturvetenskapliga tidskriften Nature i augusti.&nbsp;"
+        }
+      ],
+      "tags": [
+        {
+          "id": "dmedia.contentful.F7GJslxRM4EaywScUisis",
+          "name": "Futurniture",
+          "url": "/tagg/futurniture/"
+        },
+        {
+          "id": "dmedia.contentful.193OFGMCU2iyMys8OOeYE6",
+          "name": "Johan Ståhl",
+          "url": "/tagg/johan-stahl/"
+        }
+      ],
+      "bylines": [
+        {
+          "id": "dmedia.contentful.4frMOvc71YimQiEicwgwsS",
+          "name": "Amanda Törner",
+          "email": "amanda.torner@dagensmedia.se",
+          "image": null,
+          "title": "Reporter"
+        }
+      ],
+      "newsValue": "lowest",
+      "dropHead": "DeepMind förbereder sig för att lansera sin första kommersiella produkt och syftar till att hjälpa diagnosen komplexa ögonsjukdomar. ",
+      "sponsoredBy": null,
+      "seoTitle": "AI-seo-rubrik",
+      "seoDescription": "AI-seo-beskrivning",
+      "accessRestriction": "none"
+    },
+    "indexed": {
+      "urls": [
+        "https://www.dagensmedia.se/nyheter/ai-podden/deepminds-forsta-kommersiella-produkt-diagnostiserar-ogonsjukdomar/"
+      ],
+      "sections": [
+        "dmedia.contentful.5Gwfn6wPJugsS0mWSEUueC",
+        "dmedia.contentful.66h1yfZosMeU6amwkOkEIu"
+      ],
+      "tags": [
+        "dmedia.contentful.F7GJslxRM4EaywScUisis",
+        "dmedia.contentful.193OFGMCU2iyMys8OOeYE6"
+      ],
+      "references": [],
+      "publicationTime": "2019-04-08T13:47:43.914+02:00"
+    },
+    "summary": "DeepMinds första kommersiella produkt diagnostiserar ögonsjukdomar",
+    "eTag": "2W5WZzVxMSrHZZM99s8ckd",
+    "indexTime": "2019-05-15T12:58:47.404+02:00",
+    "nextAction": null
+  }
+}

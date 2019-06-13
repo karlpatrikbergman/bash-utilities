@@ -1,0 +1,341 @@
+ {
+   "id": "dmedia.doubledutch.888888888",
+   "objectType": "event",
+   "document": {
+     "type": "event",
+     "id": "dmedia.doubledutch.888888888",
+     "url": "/event/dj-battle/",
+     "pageTitle": "DJ-Battle",
+     "metaDescription": "Dagens Media DJ-battle, Almedalens hetaste fest!",
+     "structuredData": "{\"organizer\":{\"name\":\"Dagens Media Events\",\"@type\":\"Organization\"},\"name\":\"DJ-battle\",\"description\":\"Välkommen till Dagens Media DJ-battle, Almedalens hetaste fest! \\r\\nOnsdag den 3 juli är det åter dags att få Almedalsveckan att koka. Då gör Almedalsprofiler, mediefolk och näringslivsmänniskor upp om vilka som får Kallis att gunga och erhåller den åtråvärda DJ-battle bucklan!\",\"image\":\"https://cached-images.bonnier.news/dd/custom-field/ace2c11e-9c9b-4939-bc09-99f2c600cbf3.jpg\",\"startDate\":\"2019-07-03T20:00:00.000+02:00\",\"endDate\":\"2019-07-03T23:59:00.000+02:00\",\"location\":{\"name\":\"Kallis Visby\",\"address\":{\"addressLocality\":\"Visby\",\"postalCode\":\"\",\"streetAddress\":\" Strandvägen 2\",\"@type\":\"PostalAddress\"},\"@type\":\"Place\"},\"performer\":[],\"offers\":[{\"itemOffered\":\"Företagsbiljett\",\"price\":500,\"priceCurrency\":\"SEK\",\"availability\":\"http://schema.org/InStock\",\"url\":\"https://www.dagensmedia.se/event/rorligt/\",\"@type\":\"Offer\"}],\"audience\":\"Alla Almedalsbesökare.\",\"@context\":\"http://schema.org/\",\"@type\":\"Event\"}",
+     "structuredData2": {
+       "organizer": {
+         "name": "Dagens Media Events",
+         "@type": "Organization"
+       },
+       "name": "DJ-battle",
+       "description": "Välkommen till Dagens Media DJ-battle, Almedalens hetaste fest! \r\nOnsdag den 3 juli är det åter dags att få Almedalsveckan att koka. Då gör Almedalsprofiler, mediefolk och näringslivsmänniskor upp om vilka som får Kallis att gunga och erhåller den åtråvärda DJ-battle bucklan!",
+       "image": "https://cached-images.bonnier.news/dd/custom-field/ace2c11e-9c9b-4939-bc09-99f2c600cbf3.jpg",
+       "startDate": "2019-07-03T20:00:00.000+02:00",
+       "endDate": "2019-07-03T23:59:00.000+02:00",
+       "location": {
+         "name": "Kallis Visby",
+         "address": {
+           "addressLocality": "Visby",
+           "postalCode": "",
+           "streetAddress": " Strandvägen 2",
+           "@type": "PostalAddress"
+         },
+         "@type": "Place"
+       },
+       "performer": [],
+       "offers": [{
+         "itemOffered": "Företagsbiljett",
+         "price": 500,
+         "priceCurrency": "SEK",
+         "availability": "http://schema.org/InStock",
+         "url": "https://www.dagensmedia.se/event/rorligt/",
+         "@type": "Offer"
+       }],
+       "audience": "Alla Almedalsbesökare.",
+       "@context": "http://schema.org/",
+       "@type": "Event"
+     },
+     "containers": [{
+         "type": "heroevent",
+         "area": "hero",
+         "title": "DJ-battle",
+         "image": {
+           "type": "image",
+           "id": null,
+           "url": "https://cached-images.bonnier.news/dd/custom-field/ace2c11e-9c9b-4939-bc09-99f2c600cbf3.jpg",
+           "captionHtml": "",
+           "imageType": "foto",
+           "author": "",
+           "width": 0,
+           "height": 0
+         },
+         "eventType": "Fest",
+         "subHeadline": "Välkommen till Almedalsveckans hetaste fest, Dagens Medias DJ-battle.",
+         "instance": {
+           "startDateTime": "2019-07-03T20:00:00.000+02:00",
+           "endDateTime": "2019-07-03T23:59:00.000+02:00",
+           "status": "plenty",
+           "orderFlowUrl": "https://anmalan.dagensmedia.se/Events/888888888/dj-battle/Dates/100000302",
+           "orderFlowText": null
+         }
+       },
+       {
+         "type": "preamble",
+         "area": "main",
+         "text": "Välkommen till Dagens Media DJ-battle, Almedalens hetaste fest! \r\nOnsdag den 3 juli är det åter dags att få Almedalsveckan att koka. Då gör Almedalsprofiler, mediefolk och näringslivsmänniskor upp om vilka som får Kallis att gunga och erhåller den åtråvärda DJ-battle bucklan!"
+       },
+       {
+         "type": "orderflowlink",
+         "area": "main",
+         "orderOpen": true,
+         "orderFlowUrl": "https://anmalan.dagensmedia.se/Events/888888888/dj-battle/Dates/100000302",
+         "orderFlowText": null,
+         "status": "plenty",
+         "pageTitle": "DJ-Battle",
+         "pageUrl": "https://www.dagensmedia.se/event/dj-battle/",
+         "startDateTime": "2019-07-03T20:00:00.000+02:00",
+         "venue": {
+           "name": "Kallis Visby",
+           "street": " Strandvägen 2",
+           "zip": "",
+           "city": "Visby"
+         },
+         "eventType": "Fest"
+       },
+       {
+         "type": "sharecontent",
+         "area": "main",
+         "title": "Dela kursen",
+         "url": "https://www.dagensmedia.se/event/dj-battle/",
+         "subject": "DJ-Battle"
+       },
+       {
+         "type": "eventinfobox",
+         "area": "main",
+         "title": "Information",
+         "date": {
+           "startDateTime": "2019-07-03T20:00:00.000+02:00",
+           "endDateTime": "2019-07-03T23:59:00.000+02:00"
+         },
+         "venue": {
+           "name": "Kallis Visby",
+           "street": " Strandvägen 2",
+           "zip": "",
+           "city": "Visby"
+         },
+         "priceInfos": [{
+           "name": "Företagsbiljett",
+           "price": 500,
+           "info": "Minimum fem biljetter"
+         }],
+         "contactPerson": {
+           "name": "Lina Harbom Hedberg, lina.harbom@bonniernews.se. För att boka VIP-bord:",
+           "email": "viptables@kallisvisby.se",
+           "title": null,
+           "phone": null,
+           "image": null
+         }
+       },
+       {
+         "type": "bodyparts",
+         "area": "main",
+         "bodyParts": [{
+             "type": "mainheading",
+             "text": "Om eventet"
+           },
+           {
+             "type": "paragraph",
+             "bodyHtml": "<strong>Gratisbiljetterna är slut!</strong>"
+           },
+           {
+             "type": "paragraph",
+             "bodyHtml": "<strong>NYHET! I år finns&nbsp;det möjligt att köpa&nbsp;företagsbiljetter. Säkra platser för dig och dina kollegor.&nbsp;Köp minst 5 biljetter max 30 biljetter, 500 kr styck.&nbsp;</strong>"
+           },
+           {
+             "type": "paragraph",
+             "bodyHtml": "<strong>För att boka VIP-bord maila&nbsp;</strong><a href=\"mailto:viptables@kallisvisby.se\">viptables@kallisvisby.se</a>"
+           },
+           {
+             "type": "paragraph",
+             "bodyHtml": "Dagens Media DJ-battle är en mötesplats för alla som är på plats under Almedalsveckan. De 2 600 gästerna minglar och dansar till våra tävlandes musik. Kvällen består av ett antal DJ-battles där de tävlande utgör kända personer inom olika områden så som mediebranschen, politiken eller näringslivet. Alla våra DJs är amatörer på området och det är också syftet med eventet då vi vill att det liksom Almedalen i stort ska vara folkligt och öppet för alla. Våra DJs bjuder inte bara på sin musiksmak utan också på sig själva, Något som visat sig varit enormt uppskattat de senaste tio åren i form av Dagens Media DJ-battle."
+           },
+           {
+             "type": "paragraph",
+             "bodyHtml": "Dagens Media DJ-battle har funnits sedan 2009 och har genom åren blivit ett givet inslag under Almedalsveckan och utan tvekan Almedalens hetaste fest. Eventet hålls på onsdagskvällen under Almedalsveckan. 2019 innebär det den 3 juli. Lokalen för eventet är Kallis nere vid stranden i Visby där du som gäst inte bara får njuta av Almedalsveckans mest spektakulära fest, vi brukar dessutom få beskåda den mest magiska av solnedgångar."
+           }
+         ]
+       },
+       {
+         "type": "bodyparts",
+         "area": "main",
+         "bodyParts": [{
+             "type": "mainheading",
+             "text": "Målgrupp"
+           },
+           {
+             "type": "paragraph",
+             "bodyHtml": "Alla Almedalsbesökare."
+           }
+         ]
+       },
+       {
+         "type": "orderflowlink",
+         "area": "main",
+         "orderOpen": true,
+         "orderFlowUrl": "https://anmalan.dagensmedia.se/Events/888888888/dj-battle/Dates/100000302",
+         "orderFlowText": null,
+         "status": "plenty",
+         "pageTitle": "DJ-Battle",
+         "pageUrl": "https://www.dagensmedia.se/event/dj-battle/",
+         "startDateTime": "2019-07-03T20:00:00.000+02:00",
+         "venue": {
+           "name": "Kallis Visby",
+           "street": " Strandvägen 2",
+           "zip": "",
+           "city": "Visby"
+         },
+         "eventType": "Fest"
+       },
+       {
+         "type": "expandablebodyparts",
+         "area": "main",
+         "bodyParts": [{
+             "type": "mainheading",
+             "text": "Program"
+           },
+           {
+             "type": "paragraph",
+             "bodyHtml": "Onsdagen den 3&nbsp;juli, klockan 20.00,&nbsp;slår Dagens Media upp portarna till årets DJ-battle på Kallis i Visby. Dagens Media DJ-battle har vuxit till att bli Almedalsveckans största och mest populära event, där 2 600 gäster får Kallis att koka. Ministrar och mediechefer möts i ett helt nytt sammanhang – pinsam musiksmak, pekfingerdans och prestigelöshet gör DJ-battle till veckans roligaste fest."
+           },
+           {
+             "type": "paragraph",
+             "bodyHtml": "<em><strong>OBS. Endast en biljett per person. Vi förbehåller oss rätten att plocka bort dubbletter.&nbsp;18 års gräns på inträde till DJ-battle.&nbsp;</strong></em>"
+           },
+           {
+             "type": "paragraph",
+             "bodyHtml": "<b>Program</b>"
+           },
+           {
+             "type": "paragraph",
+             "bodyHtml": "Vi kommer att släppa programmet löpande med start från vecka 20."
+           },
+           {
+             "type": "paragraph",
+             "bodyHtml": "<strong>VIP-bord</strong>"
+           },
+           {
+             "type": "paragraph",
+             "bodyHtml": "För att boka VIP-bord på Kallis, vänligen maila&nbsp;<a href=\"mailto:viptables@kallisvisby.se?subject=VIP-bord%20Dagens%20Media%20DJ-battle\">viptables@kallisvisby.se</a>"
+           }
+         ],
+         "expandableText": "Visa hela programmet"
+       },
+       {
+         "type": "bodypartsinfobox",
+         "area": "right",
+         "title": "Arrangörer",
+         "bodyParts": [{
+           "type": "image",
+           "id": null,
+           "url": "https://cached-images.bonnier.news/dd/img/718ab94a-b3b1-4d5c-9510-89d30fa7c81f.png",
+           "captionHtml": "",
+           "imageType": "foto",
+           "author": "",
+           "width": 0,
+           "height": 0
+         }]
+       },
+       {
+         "type": "bodypartsinfobox",
+         "area": "right",
+         "title": "Partners",
+         "bodyParts": [{
+             "type": "image",
+             "id": null,
+             "url": "https://cached-images.bonnier.news/dd/img/11e485ed-0e2a-49a3-a61e-123235caf8ee.jpg",
+             "captionHtml": "",
+             "imageType": "foto",
+             "author": "",
+             "width": 0,
+             "height": 0
+           },
+           {
+             "type": "image",
+             "id": null,
+             "url": "https://cached-images.bonnier.news/dd/img/0b097731-01f7-480e-91f5-540ca4b6d050.jpg",
+             "captionHtml": "",
+             "imageType": "foto",
+             "author": "",
+             "width": 0,
+             "height": 0
+           },
+           {
+             "type": "image",
+             "id": null,
+             "url": "https://cached-images.bonnier.news/dd/img/7801d264-fc7d-4ac1-b5a6-53773597f41f.jpg",
+             "captionHtml": "",
+             "imageType": "foto",
+             "author": "",
+             "width": 0,
+             "height": 0
+           },
+           {
+             "type": "heading",
+             "text": "Bli partner – en affärsmöjlighet för ditt företag"
+           },
+           {
+             "type": "paragraph",
+             "bodyHtml": "Ta chansen att delta som partner. Kontakta Johan Laur eller Johannes Lindström för mer information.&nbsp;"
+           },
+           {
+             "type": "paragraph",
+             "bodyHtml": "<a href=\"mailto:johan.laur@bonniernews.se\">johan.laur@bonniernews.se</a><br> <a href=\"mailto:johannes.lindstrom@bonniernews.se&nbsp;\">johannes.lindstrom@bonniernews.se&nbsp;</a>"
+           }
+         ]
+       }
+     ],
+     "extraData": null,
+     "headline": "DJ-battle",
+     "topParts": [{
+       "type": "image",
+       "id": null,
+       "url": "https://cached-images.bonnier.news/dd/custom-field/ace2c11e-9c9b-4939-bc09-99f2c600cbf3.jpg",
+       "captionHtml": "",
+       "imageType": "foto",
+       "author": "",
+       "width": 0,
+       "height": 0
+     }],
+     "updateTime": "2019-06-03T10:26:57.277+02:00",
+     "speakers": [],
+     "preamble": "Välkommen till Dagens Media DJ-battle, Almedalens hetaste fest! \r\nOnsdag den 3 juli är det åter dags att få Almedalsveckan att koka. Då gör Almedalsprofiler, mediefolk och näringslivsmänniskor upp om vilka som får Kallis att gunga och erhåller den åtråvärda DJ-battle bucklan!",
+     "subHeadline": "Välkommen till Almedalsveckans hetaste fest, Dagens Medias DJ-battle.",
+     "instance": {
+       "startDateTime": "2019-07-03T20:00:00.000+02:00",
+       "endDateTime": "2019-07-03T23:59:00.000+02:00",
+       "status": "plenty",
+       "orderFlowUrl": "https://anmalan.dagensmedia.se/Events/888888888/dj-battle/Dates/100000302",
+       "orderFlowText": null
+     },
+     "priceInfos": [{
+       "name": "Företagsbiljett",
+       "price": 500,
+       "info": "Minimum fem biljetter"
+     }],
+     "venue": {
+       "name": "Kallis Visby",
+       "street": " Strandvägen 2",
+       "zip": "",
+       "city": "Visby"
+     },
+     "targetGroupParts": [{
+         "type": "mainheading",
+         "text": "Målgrupp"
+       },
+       {
+         "type": "paragraph",
+         "bodyHtml": "Alla Almedalsbesökare."
+       }
+     ]
+   },
+   "indexed": {
+     "urls": [
+       "https://www.dagensmedia.se/event/dj-battle/",
+       "https://www.dagensmedia.se/event/888888888/"
+     ],
+     "sections": [],
+     "tags": [],
+     "references": [],
+     "publicationTime": "2019-06-07T09:56:39.314+02:00"
+   },
+   "summary": "DJ-battle (Event)",
+   "eTag": "4hhOeibTf1P2GvmyRsEDev",
+   "indexTime": "2019-06-07T09:56:39.318+02:00",
+   "nextAction": "2019-06-12T00:01:00.000+02:00"
+ }

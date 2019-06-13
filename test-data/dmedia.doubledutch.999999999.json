@@ -1,0 +1,538 @@
+{
+  "id": "dmedia.doubledutch.999999999",
+  "objectType": "akademi",
+  "document": {
+    "type": "akademi",
+    "id": "dmedia.doubledutch.999999999",
+    "url": "/akademi/kundresan-customer-experience-och-customer-journey-mapping/",
+    "pageTitle": "Tvådagarsutbildning i kundresan – CX och Customer Journey Mapping",
+    "metaDescription": "Under denna kurs, som varvar teori med praktik, får du lära dig hur du konkret kan arbeta med CX och Customer Journey Mapping i din verksamhet.",
+    "structuredData": "{\"provider\":{\"name\":\"Dagens Media Akademi\",\"@type\":\"Organization\"},\"name\":\"Tvådagarsutbildning i kundresan – CX och Customer Journey Mapping\",\"description\":\"Genom Customer Experience (CX) och Customer Journey Mapping kan du skapa insikter och förståelse för dina kunder och därigenom utveckla bättre produkter, effektivare kommunikation och starkare lojalitet. Under denna tvådagarsutbildning, som varvar teori med praktik, får du lära dig hur du konkret kan arbeta med CX och Customer Journey Mapping i din verksamhet.\",\"image\":\"https://cached-images.bonnier.news/dd/custom-field/6373701c-be8c-4da9-b878-86c6a525558f.png\",\"hasCourseInstance\":[{\"courseMode\":\"onsite\",\"startDate\":\"2019-10-09T09:00:00.000+02:00\",\"endDate\":\"2019-10-10T16:30:00.000+02:00\",\"name\":\"Tvådagarsutbildning i kundresan – CX och Customer Journey Mapping\",\"description\":\"Genom Customer Experience (CX) och Customer Journey Mapping kan du skapa insikter och förståelse för dina kunder och därigenom utveckla bättre produkter, effektivare kommunikation och starkare lojalitet. Under denna tvådagarsutbildning, som varvar teori med praktik, får du lära dig hur du konkret kan arbeta med CX och Customer Journey Mapping i din verksamhet.\",\"image\":\"https://cached-images.bonnier.news/dd/custom-field/6373701c-be8c-4da9-b878-86c6a525558f.png\",\"location\":{\"name\":\"IVA Konferens, Grev Turegatan 16, Stockholm\",\"address\":{\"addressLocality\":\"Stockholm\",\"postalCode\":\"\",\"streetAddress\":\"*\",\"@type\":\"PostalAddress\"},\"@type\":\"Place\"},\"instructors\":[{\"name\":\"Johan Sjöström\",\"description\":\"Johan Sjöström arbetar som Customer centric Business Developer på Esatto och har 18 års erfarenhet som konsult inom digital utveckling och design av digitala kundmöten. Johan har en bakgrund inom webbutveckling och ledning av digitala användarupplevelser. Idag utbildar och hjälper Johan företag genom att kombinera kundinsikt, designtänkande och lean-startup-metoder för att sätta affärsutvecklings- och innovationsprocesser i rätt riktning, bland annat Customer Journey Mapping och Customer Experience Management. Johan har arbetat med en mängd kunder i olika branscher genom åren såsom ICA, JM, UC, Apoteket Kronan, Apoteket Hjärtat, Polisen, Riksdagsförvaltningen, Moderna försäkringar och Tele2.\",\"image\":\"https://cached-images.bonnier.news/dd/img/e905a143-4dfb-4725-8437-b813aff39b6f.jpg\",\"@type\":\"Person\"},{\"name\":\"Camilla Lif\",\"description\":\"Camilla Lif arbetar som coach och strateg inom CX, och med kunddriven affärsutveckling och transformation på This is Betty. Camilla har lång erfarenhet från stora organisationer inom Kundinsikt, CRM och Customer Experience, där hon har arbetat tvärfunktionellt med kundupplevelse, servicekoncept, kommunikation, varumärke, personalisering. Camilla relaterar till utmaningar med att arbeta kundcentrerat med gemensamma mätetal. Camilla kombinerar ett datadrivet arbetssätt med kvalitativ metodik, och tillämpar metoder inom design thinking.\",\"image\":\"https://cached-images.bonnier.news/dd/img/5844a8c5-5f1d-4a96-83c0-0214a4c4073b.png\",\"@type\":\"Person\"}],\"offers\":[{\"itemOffered\":\"Kursavgift\",\"price\":17900,\"priceCurrency\":\"SEK\",\"availability\":\"plenty\",\"url\":\"https://www.dagensmedia.se/akademi/kundresan-customer-experience-och-customer-journey-mapping/\",\"validFrom\":\"2019-10-09T09:00:00.000+02:00\",\"@type\":\"Offer\"}],\"@type\":\"CourseInstance\"}],\"@context\":\"http://schema.org/\",\"@type\":\"Course\"}",
+    "structuredData2": {
+      "provider": {
+        "name": "Dagens Media Akademi",
+        "@type": "Organization"
+      },
+      "name": "Tvådagarsutbildning i kundresan – CX och Customer Journey Mapping",
+      "description": "Genom Customer Experience (CX) och Customer Journey Mapping kan du skapa insikter och förståelse för dina kunder och därigenom utveckla bättre produkter, effektivare kommunikation och starkare lojalitet. Under denna tvådagarsutbildning, som varvar teori med praktik, får du lära dig hur du konkret kan arbeta med CX och Customer Journey Mapping i din verksamhet.",
+      "image": "https://cached-images.bonnier.news/dd/custom-field/6373701c-be8c-4da9-b878-86c6a525558f.png",
+      "hasCourseInstance": [{
+        "courseMode": "onsite",
+        "startDate": "2019-10-09T09:00:00.000+02:00",
+        "endDate": "2019-10-10T16:30:00.000+02:00",
+        "name": "Tvådagarsutbildning i kundresan – CX och Customer Journey Mapping",
+        "description": "Genom Customer Experience (CX) och Customer Journey Mapping kan du skapa insikter och förståelse för dina kunder och därigenom utveckla bättre produkter, effektivare kommunikation och starkare lojalitet. Under denna tvådagarsutbildning, som varvar teori med praktik, får du lära dig hur du konkret kan arbeta med CX och Customer Journey Mapping i din verksamhet.",
+        "image": "https://cached-images.bonnier.news/dd/custom-field/6373701c-be8c-4da9-b878-86c6a525558f.png",
+        "location": {
+          "name": "IVA Konferens, Grev Turegatan 16, Stockholm",
+          "address": {
+            "addressLocality": "Stockholm",
+            "postalCode": "",
+            "streetAddress": "*",
+            "@type": "PostalAddress"
+          },
+          "@type": "Place"
+        },
+        "instructors": [{
+            "name": "Johan Sjöström",
+            "description": "Johan Sjöström arbetar som Customer centric Business Developer på Esatto och har 18 års erfarenhet som konsult inom digital utveckling och design av digitala kundmöten. Johan har en bakgrund inom webbutveckling och ledning av digitala användarupplevelser. Idag utbildar och hjälper Johan företag genom att kombinera kundinsikt, designtänkande och lean-startup-metoder för att sätta affärsutvecklings- och innovationsprocesser i rätt riktning, bland annat Customer Journey Mapping och Customer Experience Management. Johan har arbetat med en mängd kunder i olika branscher genom åren såsom ICA, JM, UC, Apoteket Kronan, Apoteket Hjärtat, Polisen, Riksdagsförvaltningen, Moderna försäkringar och Tele2.",
+            "image": "https://cached-images.bonnier.news/dd/img/e905a143-4dfb-4725-8437-b813aff39b6f.jpg",
+            "@type": "Person"
+          },
+          {
+            "name": "Camilla Lif",
+            "description": "Camilla Lif arbetar som coach och strateg inom CX, och med kunddriven affärsutveckling och transformation på This is Betty. Camilla har lång erfarenhet från stora organisationer inom Kundinsikt, CRM och Customer Experience, där hon har arbetat tvärfunktionellt med kundupplevelse, servicekoncept, kommunikation, varumärke, personalisering. Camilla relaterar till utmaningar med att arbeta kundcentrerat med gemensamma mätetal. Camilla kombinerar ett datadrivet arbetssätt med kvalitativ metodik, och tillämpar metoder inom design thinking.",
+            "image": "https://cached-images.bonnier.news/dd/img/5844a8c5-5f1d-4a96-83c0-0214a4c4073b.png",
+            "@type": "Person"
+          }
+        ],
+        "offers": [{
+          "itemOffered": "Kursavgift",
+          "price": 17900,
+          "priceCurrency": "SEK",
+          "availability": "plenty",
+          "url": "https://www.dagensmedia.se/akademi/kundresan-customer-experience-och-customer-journey-mapping/",
+          "validFrom": "2019-10-09T09:00:00.000+02:00",
+          "@type": "Offer"
+        }],
+        "@type": "CourseInstance"
+      }],
+      "@context": "http://schema.org/",
+      "@type": "Course"
+    },
+    "updateTime": "2019-05-22T17:04:46.257+02:00",
+    "containers": [{
+        "type": "heroakademi",
+        "area": "hero",
+        "title": "Kundresan – Customer Experience och Customer Journey Mapping",
+        "image": {
+          "type": "image",
+          "id": null,
+          "url": "https://cached-images.bonnier.news/dd/custom-field/6373701c-be8c-4da9-b878-86c6a525558f.png",
+          "captionHtml": "",
+          "imageType": "foto",
+          "author": "",
+          "width": 0,
+          "height": 0
+        },
+        "editorialLabel": null,
+        "categories": [{
+            "id": "marknadsföringsstrategi",
+            "name": "Marknadsföringsstrategi"
+          },
+          {
+            "id": "ux och konvertering",
+            "name": "Ux och konvertering"
+          }
+        ]
+      },
+      {
+        "type": "preamble",
+        "area": "main",
+        "text": "Genom Customer Experience (CX) och Customer Journey Mapping kan du skapa insikter och förståelse för dina kunder och därigenom utveckla bättre produkter, effektivare kommunikation och starkare lojalitet. Under denna tvådagarsutbildning, som varvar teori med praktik, får du lära dig hur du konkret kan arbeta med CX och Customer Journey Mapping i din verksamhet."
+      },
+      {
+        "type": "bodypartsinfobox",
+        "area": "right",
+        "title": "Information",
+        "bodyParts": [{
+          "type": "paragraph",
+          "bodyHtml": "<strong>Pris:</strong> 17 900 kr exkl moms. <br>\n<strong>2 dagar</strong>, 09:00-16:30"
+        }]
+      },
+      {
+        "type": "akademiinstancesinfobox",
+        "area": "right",
+        "title": "Kurstillfällen",
+        "instances": [{
+          "date": {
+            "startDateTime": "2019-10-09T09:00:00.000+02:00",
+            "endDateTime": "2019-10-10T16:30:00.000+02:00"
+          },
+          "status": "plenty",
+          "orderFlow": {
+            "url": "https://anmal.dagensmedia.se/Events/100000246/kundresan-customer-experience-och-customer-journey-mapping/Dates/100000276"
+          },
+          "venue": {
+            "name": "IVA Konferens, Grev Turegatan 16, Stockholm",
+            "street": "*",
+            "zip": "",
+            "city": "Stockholm"
+          }
+        }],
+        "pageTitle": "Tvådagarsutbildning i kundresan – CX och Customer Journey Mapping",
+        "url": "https://www.dagensmedia.se/akademi/kundresan-customer-experience-och-customer-journey-mapping/"
+      },
+      {
+        "type": "bodyparts",
+        "area": "main",
+        "bodyParts": [{
+            "type": "mainheading",
+            "text": "Om utbildningen"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "Customer Experience, CX, är en affärsdisciplin som handlar om att utveckla tjänster och verksamheter där man sätter kunden i centrum och involverar kunden i företagets affärsprocesser och därmed skapar förutsättningar för att få nöjdare, mer trogna kunder.&nbsp;"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "En av hörnstenarna i CX är att förstå kundens upplevelse av kontakterna den har med er som företag – över tid. Det kan visualiseras i form av en kundresa, en så kallad Customer Journey Map, som är en slags visualisering av kundens alla kontakter med er som företag."
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "Under denna kurs går vi igenom hur CX fungerar och du får lära dig att skapa en Customer Journey Map och integrera förändringarna i din organisation.<br> &nbsp;"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>UTBILDNINGEN GÅR IGENOM</b>:"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Customer Experience (CX) som affärsdisciplin: begreppen, vad en kundupplevelse består av och hur vi kan förstå den</li> \n <li>Customer Journey Mapping, modell, arbetssätt och moment:</li> \n <li>Personas och Empathy mapping, insamling av kundinsikter, kundens behov och beteende, kontaktpunkter och kanaler</li> \n <li>Övningar i hur du skapar en Customer Journey Map</li> \n <li>Hur du kan mäta upplevelsen av era tjänster kopplat till Customer Journey Mapping</li> \n <li>Affärsutveckling och verksamhetsstyrning med CX</li> \n <li>Hur du kan starta förändring i just din verksamhet<br> &nbsp;</li> \n</ul>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>UTBILDNINGEN RIKTAR SIG TILL:</b>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Marknadschefer och marknadsförare</li> \n <li>Ansvarig för kundupplevelse</li> \n <li>Affärsområdesansvariga</li> \n <li>Affärs- och verksamhetsutvecklare</li> \n <li>Support- och kundtjänstansvariga</li> \n <li>Strateger</li> \n <li>Produktägare<b>&nbsp;</b><br> &nbsp;</li> \n</ul>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>MÅL MED UTBILDNINGEN:</b><br> Att du som deltagare ska få:"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Förståelse för Customer Experience som affärsdisciplin</li> \n <li>Goda kunskaper i hur du kan arbeta med Customer Journey Mapping i din verksamhet</li> \n <li>Förstå hur ett empatiskt förhållningsätt till era kunder kan skapa en mera hållbar och lönsam affär för ert företag</li> \n <li>En plan för att starta ett CX-arbete i sin hemorganisation</li> \n</ul>"
+          }
+        ]
+      },
+      {
+        "type": "sharecontent",
+        "area": "main",
+        "title": "Dela kursen",
+        "url": "https://www.dagensmedia.se/akademi/kundresan-customer-experience-och-customer-journey-mapping/",
+        "subject": "Tvådagarsutbildning i kundresan – CX och Customer Journey Mapping"
+      },
+      {
+        "type": "expandablebodyparts",
+        "area": "main",
+        "bodyParts": [{
+            "type": "mainheading",
+            "text": "Program"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>09.00–09.30 Välkomnande och introduktion</b>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Introduktion till dagen</li> \n <li>Mål och syfte<br> &nbsp;</li> \n</ul>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>09.30–10.00 Customer Experience (CX) som affärsdisciplin</b>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Introduktion till CX</li> \n <li>Begrepp att ha koll på</li> \n <li>Den nya varumärkesmodellen och&nbsp;<i>Shared Value</i></li> \n <li>Kundupplevelsen: Vad består en den av? Hur kan vi förstå den?<br> &nbsp;</li> \n</ul>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>10.00–10.15 Kaffe</b><br> &nbsp;"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>10.15-10.45 Företagets Why och Shared Value [övning]</b><br> &nbsp;"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>10.45–12.00 Customer Experience (CX) som affärsdisciplin forts.</b>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Vad menas med att vara kundcentrerad?</li> \n <li>Customer Experience Management, CXM</li> \n <li>CX och hållbarhet<br> &nbsp;</li> \n</ul>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>11.30 – 12.00 Introduktion till Customer Journey Mapping</b>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Customer Journey Mapping</li> \n</ul>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<br> <b>12.00–13.00 Lunch</b><br> &nbsp;"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>13.00–13.45 Customer Journey Mapping, CJM</b>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Modellens ramverk (faser, kanaler, kontaktpunkter, On-stage, Back-stage mm)</li> \n <li>Personas och Empathy mapping</li> \n <li>Kundens behov och kundens beteende&nbsp;</li> \n <li>Hur samlar man in kundinsikterna?<br> &nbsp;</li> \n</ul>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>13.45 – 14.15 Samla in empatisk kundinsikt [övning]</b><br> &nbsp;"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>14.15–13.45 Customer Journey Mapping, CJM</b>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Arbetssätt, process</li> \n <li>Introduktion till CASE<br> &nbsp;</li> \n</ul>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>13.45–14.30 Customer Journey Mapping [övning]</b>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Introduktion till övningen</li> \n <li>Hands-on, skapa en CJM<br> &nbsp;</li> \n</ul>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>14.30–14.45 Kaffe</b><br> &nbsp;"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>14.45–15.15 forts Customer Journey Mapping [övning]</b>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Feedback och lärdomar</li> \n <li>CASE<br> &nbsp;</li> \n</ul>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>15.15-15.45 Strategi och planering av CX</b>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Hur ser utvecklingen ut mot ett kunddrivet företag?</li> \n <li>Trender<br> &nbsp;</li> \n</ul>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>16.00-16.20 Vilka utmaningar har min organisation? [reflektion]</b><br> &nbsp;"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>16.20-16.30 Sammanfattning dag 1</b>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<i>Möjlighet till After work med kursdeltagare och kursledare</i>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "&nbsp;"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>09.00–09.30 Reflektion dag 1</b><br> &nbsp;"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>09.30–10.00 Att driva förändringsarbete med hjäp av kundresan&nbsp;</b>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Kundresan som Blueprint</li> \n <li>Analysera rotorsaker<br> &nbsp;</li> \n</ul>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>10.00–10.15 Kaffe</b><b>&nbsp;</b><br> &nbsp;"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>10.15-11.15 Verktyg för kundresor</b>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Vad finns och vad behöver man?</li> \n <li>Exempel och demo Custellence<br> &nbsp;</li> \n</ul>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>11.15-12.00 Blueprint och rotorsaker [övning]</b>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Introduktion till övning</li> \n <li>Förbättringar och idégenerering<br> &nbsp;</li> \n</ul>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>12.00–13.00 Lunch</b><br> &nbsp;"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>13.00–14.00 Verksamhetsstyrning och affärsutveckling</b>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Introduktion till begreppet ”kundskuld”</li> \n <li>Prioritering</li> \n <li>Affärsmodellen och kundresan</li> \n <li>ROE, Return On Experience</li> \n</ul>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<br> <b>14.00-14.30 Affärsutveckling [övning]</b>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Visa på värdet av CX, ROE<br> &nbsp;</li> \n</ul>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>14.30–14.45 Kaffe</b><br> &nbsp;"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>14.45–15.30 Introduktion till att mäta upplevelse</b>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Olika sätt att mäta</li> \n <li>NPS (Net Promoter Score)</li> \n <li>Designa mätning kopplat till kundresan<br> &nbsp;</li> \n</ul>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>15.30-16.00 Tips och råd när ni kommer hem</b>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<ul> \n <li>Praktik och verktyg runt kundresan</li> \n <li>Orsaker till avstannade arbeten med kundresor<br> &nbsp;</li> \n</ul>"
+          },
+          {
+            "type": "paragraph",
+            "bodyHtml": "<b>16.00-16.30 Sammanfattning dag 2</b>"
+          }
+        ],
+        "expandableText": "Visa hela programmet"
+      },
+      {
+        "type": "akademicontact",
+        "area": "right",
+        "title": "Har du frågor?",
+        "contactPersons": [{
+          "name": "Ellen Nordgren",
+          "email": "ellen.nordgren@dagensmedia.se",
+          "title": null,
+          "phone": "076 276 85 20",
+          "image": {
+            "type": "image",
+            "id": null,
+            "url": "https://cached-images.bonnier.news/dd/custom-field/b554f17a-c449-4e69-85b2-72cb9b0340c2.jpg",
+            "captionHtml": "",
+            "imageType": "foto",
+            "author": "",
+            "width": 0,
+            "height": 0
+          }
+        }]
+      },
+      {
+        "type": "akademispeakers",
+        "area": "right",
+        "title": "Kursledare",
+        "speakers": [{
+            "name": "Johan Sjöström",
+            "title": null,
+            "description": "Johan Sjöström arbetar som Customer centric Business Developer på Esatto och har 18 års erfarenhet som konsult inom digital utveckling och design av digitala kundmöten. Johan har en bakgrund inom webbutveckling och ledning av digitala användarupplevelser. Idag utbildar och hjälper Johan företag genom att kombinera kundinsikt, designtänkande och lean-startup-metoder för att sätta affärsutvecklings- och innovationsprocesser i rätt riktning, bland annat Customer Journey Mapping och Customer Experience Management. Johan har arbetat med en mängd kunder i olika branscher genom åren såsom ICA, JM, UC, Apoteket Kronan, Apoteket Hjärtat, Polisen, Riksdagsförvaltningen, Moderna försäkringar och Tele2.",
+            "image": {
+              "type": "image",
+              "id": null,
+              "url": "https://cached-images.bonnier.news/dd/img/e905a143-4dfb-4725-8437-b813aff39b6f.jpg",
+              "captionHtml": "",
+              "imageType": "foto",
+              "author": "",
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "name": "Camilla Lif",
+            "title": null,
+            "description": "Camilla Lif arbetar som coach och strateg inom CX, och med kunddriven affärsutveckling och transformation på This is Betty. Camilla har lång erfarenhet från stora organisationer inom Kundinsikt, CRM och Customer Experience, där hon har arbetat tvärfunktionellt med kundupplevelse, servicekoncept, kommunikation, varumärke, personalisering. Camilla relaterar till utmaningar med att arbeta kundcentrerat med gemensamma mätetal. Camilla kombinerar ett datadrivet arbetssätt med kvalitativ metodik, och tillämpar metoder inom design thinking.",
+            "image": {
+              "type": "image",
+              "id": null,
+              "url": "https://cached-images.bonnier.news/dd/img/5844a8c5-5f1d-4a96-83c0-0214a4c4073b.png",
+              "captionHtml": "",
+              "imageType": "foto",
+              "author": "",
+              "width": 0,
+              "height": 0
+            }
+          }
+        ]
+      },
+      {
+        "type": "relatedakademicourses",
+        "area": "right",
+        "title": "Liknande kurser",
+        "id": "dmedia.doubledutch.999999999",
+        "relatedCategories": [{
+            "id": "marknadsföringsstrategi",
+            "name": "Marknadsföringsstrategi"
+          },
+          {
+            "id": "ux och konvertering",
+            "name": "Ux och konvertering"
+          }
+        ]
+      }
+    ],
+    "extraData": {
+      "headline": "Kundresan – Customer Experience och Customer Journey Mapping",
+      "preamble": "Genom Customer Experience (CX) och Customer Journey Mapping kan du skapa insikter och förståelse för dina kunder och därigenom utveckla bättre produkter, effektivare kommunikation och starkare lojalitet. Under denna tvådagarsutbildning, som varvar teori med praktik, får du lära dig hur du konkret kan arbeta med CX och Customer Journey Mapping i din verksamhet.",
+      "newsletterDescription": "<h3>Om utbildningen</h3><p>Customer Experience, CX, är en affärsdisciplin som handlar om att utveckla tjänster och verksamheter där man sätter kunden i centrum och involverar kunden i företagets affärsprocesser och därmed skapar förutsättningar för att få nöjdare, mer trogna kunder.&nbsp;</p><p>En av hörnstenarna i CX är att förstå kundens upplevelse av kontakterna den har med er som företag – över tid. Det kan visualiseras i form av en kundresa, en så kallad Customer Journey Map, som är en slags visualisering av kundens alla kontakter med er som företag.</p><p>Under denna kurs går vi igenom hur CX fungerar och du får lära dig att skapa en Customer Journey Map och integrera förändringarna i din organisation.<br> &nbsp;</p><p><b>UTBILDNINGEN GÅR IGENOM</b>:</p><p><ul> \n <li>Customer Experience (CX) som affärsdisciplin: begreppen, vad en kundupplevelse består av och hur vi kan förstå den</li> \n <li>Customer Journey Mapping, modell, arbetssätt och moment:</li> \n <li>Personas och Empathy mapping, insamling av kundinsikter, kundens behov och beteende, kontaktpunkter och kanaler</li> \n <li>Övningar i hur du skapar en Customer Journey Map</li> \n <li>Hur du kan mäta upplevelsen av era tjänster kopplat till Customer Journey Mapping</li> \n <li>Affärsutveckling och verksamhetsstyrning med CX</li> \n <li>Hur du kan starta förändring i just din verksamhet<br> &nbsp;</li> \n</ul></p><p><b>UTBILDNINGEN RIKTAR SIG TILL:</b></p><p><ul> \n <li>Marknadschefer och marknadsförare</li> \n <li>Ansvarig för kundupplevelse</li> \n <li>Affärsområdesansvariga</li> \n <li>Affärs- och verksamhetsutvecklare</li> \n <li>Support- och kundtjänstansvariga</li> \n <li>Strateger</li> \n <li>Produktägare<b>&nbsp;</b><br> &nbsp;</li> \n</ul></p><p><b>MÅL MED UTBILDNINGEN:</b><br> Att du som deltagare ska få:</p><p><ul> \n <li>Förståelse för Customer Experience som affärsdisciplin</li> \n <li>Goda kunskaper i hur du kan arbeta med Customer Journey Mapping i din verksamhet</li> \n <li>Förstå hur ett empatiskt förhållningsätt till era kunder kan skapa en mera hållbar och lönsam affär för ert företag</li> \n <li>En plan för att starta ett CX-arbete i sin hemorganisation</li> \n</ul></p>",
+      "editorialLabel": null,
+      "mainImage": {
+        "type": "image",
+        "id": null,
+        "url": "https://cached-images.bonnier.news/dd/custom-field/6373701c-be8c-4da9-b878-86c6a525558f.png",
+        "captionHtml": "",
+        "imageType": "foto",
+        "author": "",
+        "width": 0,
+        "height": 0
+      },
+      "categories": [{
+          "id": "marknadsföringsstrategi",
+          "name": "Marknadsföringsstrategi"
+        },
+        {
+          "id": "ux och konvertering",
+          "name": "Ux och konvertering"
+        }
+      ],
+      "speakers": [{
+          "name": "Johan Sjöström",
+          "title": null,
+          "description": "Johan Sjöström arbetar som Customer centric Business Developer på Esatto och har 18 års erfarenhet som konsult inom digital utveckling och design av digitala kundmöten. Johan har en bakgrund inom webbutveckling och ledning av digitala användarupplevelser. Idag utbildar och hjälper Johan företag genom att kombinera kundinsikt, designtänkande och lean-startup-metoder för att sätta affärsutvecklings- och innovationsprocesser i rätt riktning, bland annat Customer Journey Mapping och Customer Experience Management. Johan har arbetat med en mängd kunder i olika branscher genom åren såsom ICA, JM, UC, Apoteket Kronan, Apoteket Hjärtat, Polisen, Riksdagsförvaltningen, Moderna försäkringar och Tele2.",
+          "image": {
+            "type": "image",
+            "id": null,
+            "url": "https://cached-images.bonnier.news/dd/img/e905a143-4dfb-4725-8437-b813aff39b6f.jpg",
+            "captionHtml": "",
+            "imageType": "foto",
+            "author": "",
+            "width": 0,
+            "height": 0
+          }
+        },
+        {
+          "name": "Camilla Lif",
+          "title": null,
+          "description": "Camilla Lif arbetar som coach och strateg inom CX, och med kunddriven affärsutveckling och transformation på This is Betty. Camilla har lång erfarenhet från stora organisationer inom Kundinsikt, CRM och Customer Experience, där hon har arbetat tvärfunktionellt med kundupplevelse, servicekoncept, kommunikation, varumärke, personalisering. Camilla relaterar till utmaningar med att arbeta kundcentrerat med gemensamma mätetal. Camilla kombinerar ett datadrivet arbetssätt med kvalitativ metodik, och tillämpar metoder inom design thinking.",
+          "image": {
+            "type": "image",
+            "id": null,
+            "url": "https://cached-images.bonnier.news/dd/img/5844a8c5-5f1d-4a96-83c0-0214a4c4073b.png",
+            "captionHtml": "",
+            "imageType": "foto",
+            "author": "",
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "inFocus": false,
+      "instances": [{
+        "date": {
+          "startDateTime": "2019-10-09T09:00:00.000+02:00",
+          "endDateTime": "2019-10-10T16:30:00.000+02:00"
+        },
+        "status": "plenty",
+        "orderFlow": {
+          "url": "https://anmal.dagensmedia.se/Events/100000246/kundresan-customer-experience-och-customer-journey-mapping/Dates/100000276"
+        },
+        "venue": {
+          "name": "IVA Konferens, Grev Turegatan 16, Stockholm",
+          "street": "*",
+          "zip": "",
+          "city": "Stockholm"
+        }
+      }],
+      "priceInfos": [{
+        "name": "Kursavgift",
+        "price": 17900,
+        "info": null
+      }]
+    }
+  },
+  "indexed": {
+    "urls": [
+      "https://www.dagensmedia.se/akademi/kundresan-customer-experience-och-customer-journey-mapping/",
+      "https://www.dagensmedia.se/akademi/100000246/"
+    ],
+    "sections": [],
+    "tags": [],
+    "references": [],
+    "publicationTime": "2019-06-05T16:54:10.598+02:00"
+  },
+  "summary": "Kundresan – Customer Experience och Customer Journey Mapping (Akademi)",
+  "eTag": "6ElKOFkj2M7zIAh9MsIkAm",
+  "indexTime": "2019-06-05T16:54:10.599+02:00",
+  "nextAction": "2019-06-12T00:01:00.000+02:00"
+}
