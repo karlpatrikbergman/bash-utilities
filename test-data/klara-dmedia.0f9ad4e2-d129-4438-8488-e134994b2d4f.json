@@ -1,0 +1,110 @@
+{
+  "id": "klara-dmedia.0f9ad4e2-d129-4438-8488-e134994b2d4f",
+  "_meta": {
+    "_objectType": "article",
+    "_originalId": "0f9ad4e2-d129-4438-8488-e134994b2d4f",
+    "_sourceSystem": "masterly-dmedia",
+    "_sourceLocation": null,
+    "_triggeredBy": "inc",
+    "_eTag": "me2i0I99QHrNCVkQMG0dJ",
+    "_indexed": "2018-11-29T15:43:24.576+01:00"
+  },
+  "contentObject": {
+    "id": "0f9ad4e2-d129-4438-8488-e134994b2d4f",
+    "sourceSystem": "klara",
+    "contentType": "article",
+    "document": {
+      "headline": "”Vi har valt att riskera investeringar”",
+      "sections": [
+        "contentful.section.4lsQkPeHC02CscMk0wIue0"
+      ],
+      "lastModifiedTime": "2018-11-29T14:43:24.368Z",
+      "tags": [
+        "contentful.tag.1WpGWUByLaoKEuaYeY2kYU",
+        "contentful.tag.3PvUZRFqY8YU4uy4S26OGE",
+        "contentful.tag.3bIWXHtjoQOgcOKcgu6WAg",
+        "contentful.tag.5wC6cPZXlCC02YeSQ8O2QU"
+      ],
+      "bodyText": "<p>När mediebyråerna säger att svenska publicister har slutit sig allt mer efter GDPR, då flera tredjepartsaktörer har stoppats, säger publicisterna att de måste skydda sina användare.</p>\n<p>Schibsted har tagit en aktiv roll för att stå upp mot globala techjättar såsom Facebook och Google.&nbsp;</p>\n<p>I samband med GDPR har man gjort det genom att inte gå med på Googles krav om att de ska samla in samtycke från sina kunder å Googles vägnar – vilket har gått konsekvenser för medieköpen.&nbsp;</p>\n<p>– Vi har valt att riskera investeringar för att driva den linjen vi gjort i Sverige, säger Anders Nylander, vd på Schibsted sales &amp; inventory.&nbsp;</p>\n<p><em>Läs del 2 i Dagens Medias stora special med rubriken \"Kallt krig om data\", i det senaste numret av magasinet där publicisterna svarar på kritiken om \"walled gardens\".&nbsp;</em></p>\n<p><a href=\"http://edm.bbmbonnier.se/dagensmedia-prenumerera?elqTrackId=f64f64e7683749309a8f2b0ccfaa2bb4&amp;elq=00000000000000000000000000000000&amp;elqaid=549&amp;elqat=2&amp;elqCampaignId=\">Är du inte prenumerant? Här tecknar du dig för en prenumeration. </a>&nbsp;</p>\n",
+      "id": "0f9ad4e2-d129-4438-8488-e134994b2d4f",
+      "authors": [],
+      "editorialClassifications": {
+        "newsValue": 1
+      },
+      "media": [{
+        "author": "Janne Næss/Press",
+        "crops": {
+          "16x9": {
+            "x": 71.11111111111109,
+            "y": 0,
+            "width": 1137.7777777777778,
+            "height": 640
+          }
+        },
+        "id": "klara.image.24a45842-2eb4-4d5d-8e23-2d60cc47f74a",
+        "caption": "I det senaste numret av Dagens Media ger Anders Nylander på Schibsted, David Matsson på TV4 och Alexander Lydecker på Bonnier sin syn på transparensen i skenet av GDPR. ",
+        "type": "image",
+        "internalId": "504fa48c-3f9d-498a-9f03-6fdec7e5017a"
+      }],
+      "publishTime": "2018-11-29T09:00:15.949Z",
+      "preamble": "DAGENS MEDIA, NR 18. Flera tredjepartsaktörer utesluts av mediehusen. ”Vi har en skyldighet att värna om användarnas data”, säger Schibsteds Anders Nylander. ",
+      "updateTime": "2018-11-29T14:43:24.368Z"
+    },
+    "refs": {
+      "klara.image.24a45842-2eb4-4d5d-8e23-2d60cc47f74a": {
+        "id": "24a45842-2eb4-4d5d-8e23-2d60cc47f74a",
+        "sourceSystem": "klara",
+        "contentType": "image",
+        "document": {
+          "originalUrl": "https://binary-proxy-bn-masterly-dmedia-prod.internal.elx.ohoy.io/binary/b60b14e042c2d9d6594d159c9e79a6c1a6795c4772c8f15831d0a0e6f4be219c",
+          "mimetype": "image/png",
+          "filename": "Special Publicister.png"
+        }
+      },
+      "contentful.tag.3PvUZRFqY8YU4uy4S26OGE": {
+        "id": "3PvUZRFqY8YU4uy4S26OGE",
+        "sourceSystem": "contentful",
+        "contentType": "tag",
+        "document": {
+          "name": "Schibsted",
+          "slug": "schibsted"
+        }
+      },
+      "contentful.section.4lsQkPeHC02CscMk0wIue0": {
+        "id": "4lsQkPeHC02CscMk0wIue0",
+        "sourceSystem": "contentful",
+        "contentType": "section",
+        "document": {
+          "name": "Medier"
+        }
+      },
+      "contentful.tag.3bIWXHtjoQOgcOKcgu6WAg": {
+        "id": "3bIWXHtjoQOgcOKcgu6WAg",
+        "sourceSystem": "contentful",
+        "contentType": "tag",
+        "document": {
+          "name": "Bonnier Broadcasting",
+          "slug": "bonnier-broadcasting"
+        }
+      },
+      "contentful.tag.5wC6cPZXlCC02YeSQ8O2QU": {
+        "id": "5wC6cPZXlCC02YeSQ8O2QU",
+        "sourceSystem": "contentful",
+        "contentType": "tag",
+        "document": {
+          "name": "GDPR",
+          "slug": "gdpr"
+        }
+      },
+      "contentful.tag.1WpGWUByLaoKEuaYeY2kYU": {
+        "id": "1WpGWUByLaoKEuaYeY2kYU",
+        "sourceSystem": "contentful",
+        "contentType": "tag",
+        "document": {
+          "name": "Bonnier",
+          "slug": "bonnier"
+        }
+      }
+    }
+  }
+}

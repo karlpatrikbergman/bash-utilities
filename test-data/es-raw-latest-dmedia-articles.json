@@ -1,0 +1,1125 @@
+{
+  "took": 4,
+  "timed_out": false,
+  "_shards": {
+    "total": 6,
+    "successful": 6,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 640,
+    "max_score": 0,
+    "hits": [
+      {
+        "_index": "flow-raw1",
+        "_type": "raw",
+        "_id": "klara-dmedia.0f9ad4e2-d129-4438-8488-e134994b2d4f",
+        "_score": 0,
+        "_source": {
+          "id": "klara-dmedia.0f9ad4e2-d129-4438-8488-e134994b2d4f",
+          "_meta": {
+            "_objectType": "article",
+            "_originalId": "0f9ad4e2-d129-4438-8488-e134994b2d4f",
+            "_sourceSystem": "masterly-dmedia",
+            "_sourceLocation": null,
+            "_triggeredBy": "inc",
+            "_eTag": "me2i0I99QHrNCVkQMG0dJ",
+            "_indexed": "2018-11-29T15:43:24.576+01:00"
+          },
+          "contentObject": {
+            "id": "0f9ad4e2-d129-4438-8488-e134994b2d4f",
+            "sourceSystem": "klara",
+            "contentType": "article",
+            "document": {
+              "headline": "”Vi har valt att riskera investeringar”",
+              "sections": [
+                "contentful.section.4lsQkPeHC02CscMk0wIue0"
+              ],
+              "lastModifiedTime": "2018-11-29T14:43:24.368Z",
+              "tags": [
+                "contentful.tag.1WpGWUByLaoKEuaYeY2kYU",
+                "contentful.tag.3PvUZRFqY8YU4uy4S26OGE",
+                "contentful.tag.3bIWXHtjoQOgcOKcgu6WAg",
+                "contentful.tag.5wC6cPZXlCC02YeSQ8O2QU"
+              ],
+              "bodyText": "<p>När mediebyråerna säger att svenska publicister har slutit sig allt mer efter GDPR, då flera tredjepartsaktörer har stoppats, säger publicisterna att de måste skydda sina användare.</p>\n<p>Schibsted har tagit en aktiv roll för att stå upp mot globala techjättar såsom Facebook och Google.&nbsp;</p>\n<p>I samband med GDPR har man gjort det genom att inte gå med på Googles krav om att de ska samla in samtycke från sina kunder å Googles vägnar – vilket har gått konsekvenser för medieköpen.&nbsp;</p>\n<p>– Vi har valt att riskera investeringar för att driva den linjen vi gjort i Sverige, säger Anders Nylander, vd på Schibsted sales &amp; inventory.&nbsp;</p>\n<p><em>Läs del 2 i Dagens Medias stora special med rubriken \"Kallt krig om data\", i det senaste numret av magasinet där publicisterna svarar på kritiken om \"walled gardens\".&nbsp;</em></p>\n<p><a href=\"http://edm.bbmbonnier.se/dagensmedia-prenumerera?elqTrackId=f64f64e7683749309a8f2b0ccfaa2bb4&amp;elq=00000000000000000000000000000000&amp;elqaid=549&amp;elqat=2&amp;elqCampaignId=\">Är du inte prenumerant? Här tecknar du dig för en prenumeration. </a>&nbsp;</p>\n",
+              "id": "0f9ad4e2-d129-4438-8488-e134994b2d4f",
+              "authors": [],
+              "editorialClassifications": {
+                "newsValue": 1
+              },
+              "media": [
+                {
+                  "author": "Janne Næss/Press",
+                  "crops": {
+                    "16x9": {
+                      "x": 71.11111111111109,
+                      "y": 0,
+                      "width": 1137.7777777777778,
+                      "height": 640
+                    }
+                  },
+                  "id": "klara.image.24a45842-2eb4-4d5d-8e23-2d60cc47f74a",
+                  "caption": "I det senaste numret av Dagens Media ger Anders Nylander på Schibsted, David Matsson på TV4 och Alexander Lydecker på Bonnier sin syn på transparensen i skenet av GDPR. ",
+                  "type": "image",
+                  "internalId": "504fa48c-3f9d-498a-9f03-6fdec7e5017a"
+                }
+              ],
+              "publishTime": "2018-11-29T09:00:15.949Z",
+              "preamble": "DAGENS MEDIA, NR 18. Flera tredjepartsaktörer utesluts av mediehusen. ”Vi har en skyldighet att värna om användarnas data”, säger Schibsteds Anders Nylander. ",
+              "updateTime": "2018-11-29T14:43:24.368Z"
+            },
+            "refs": {
+              "klara.image.24a45842-2eb4-4d5d-8e23-2d60cc47f74a": {
+                "id": "24a45842-2eb4-4d5d-8e23-2d60cc47f74a",
+                "sourceSystem": "klara",
+                "contentType": "image",
+                "document": {
+                  "originalUrl": "https://binary-proxy-bn-masterly-dmedia-prod.internal.elx.ohoy.io/binary/b60b14e042c2d9d6594d159c9e79a6c1a6795c4772c8f15831d0a0e6f4be219c",
+                  "mimetype": "image/png",
+                  "filename": "Special Publicister.png"
+                }
+              },
+              "contentful.tag.3PvUZRFqY8YU4uy4S26OGE": {
+                "id": "3PvUZRFqY8YU4uy4S26OGE",
+                "sourceSystem": "contentful",
+                "contentType": "tag",
+                "document": {
+                  "name": "Schibsted",
+                  "slug": "schibsted"
+                }
+              },
+              "contentful.section.4lsQkPeHC02CscMk0wIue0": {
+                "id": "4lsQkPeHC02CscMk0wIue0",
+                "sourceSystem": "contentful",
+                "contentType": "section",
+                "document": {
+                  "name": "Medier"
+                }
+              },
+              "contentful.tag.3bIWXHtjoQOgcOKcgu6WAg": {
+                "id": "3bIWXHtjoQOgcOKcgu6WAg",
+                "sourceSystem": "contentful",
+                "contentType": "tag",
+                "document": {
+                  "name": "Bonnier Broadcasting",
+                  "slug": "bonnier-broadcasting"
+                }
+              },
+              "contentful.tag.5wC6cPZXlCC02YeSQ8O2QU": {
+                "id": "5wC6cPZXlCC02YeSQ8O2QU",
+                "sourceSystem": "contentful",
+                "contentType": "tag",
+                "document": {
+                  "name": "GDPR",
+                  "slug": "gdpr"
+                }
+              },
+              "contentful.tag.1WpGWUByLaoKEuaYeY2kYU": {
+                "id": "1WpGWUByLaoKEuaYeY2kYU",
+                "sourceSystem": "contentful",
+                "contentType": "tag",
+                "document": {
+                  "name": "Bonnier",
+                  "slug": "bonnier"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index": "flow-raw1",
+        "_type": "raw",
+        "_id": "klara-dmedia.67182b5e-986b-4ad9-9eb1-8e7bbb5976d4",
+        "_score": 0,
+        "_source": {
+          "id": "klara-dmedia.67182b5e-986b-4ad9-9eb1-8e7bbb5976d4",
+          "_meta": {
+            "_objectType": "article",
+            "_originalId": "67182b5e-986b-4ad9-9eb1-8e7bbb5976d4",
+            "_sourceSystem": "masterly-dmedia",
+            "_sourceLocation": null,
+            "_triggeredBy": "inc",
+            "_eTag": "7Dyykqcgc5Pjvk1BihkuWa",
+            "_indexed": "2018-11-30T07:37:54.016+01:00"
+          },
+          "contentObject": {
+            "id": "67182b5e-986b-4ad9-9eb1-8e7bbb5976d4",
+            "sourceSystem": "klara",
+            "contentType": "article",
+            "document": {
+              "headline": "Lägger ansvar på byrån ",
+              "sections": [
+                "contentful.section.u7lXD7Onkco2c6MAqq6iG",
+                "contentful.section.4lsQkPeHC02CscMk0wIue0"
+              ],
+              "lastModifiedTime": "2018-11-30T06:37:53.800Z",
+              "tags": [
+                "contentful.tag.1zxFi9hp8Qws062Yc8YaYY",
+                "contentful.tag.5wC6cPZXlCC02YeSQ8O2QU"
+              ],
+              "bodyText": "<p>GDPR har gjort att svenska publicister valt att stoppa flera tredjepartsaktörer som mäter kampanjernas effekt. Mediebyråerna menar att transparensen har blivit sämre och att deras arbete försvårats sedan 25 maj när det kommer till att verifiera köpen och få en helhetsbild över hur väl kampanjerna går.&nbsp;</p>\n<p>Tero Marjamäki, pressansvarig på Sveriges Annonsörer, säger dock att frågan inte varit fullt så het bland annonsörerna, samtidigt som han framhäver att transparens i medieköp är viktigt och drar paralleller till hur Unilever och Procter &amp; Gamble agerat tidigare.&nbsp;</p>\n<p>– De har sett över sina investeringar när det exemplevis kommer till ad frauds och viewability, vilket hänger samman med att de vill få valuta för sina pengar, säger han.&nbsp;</p>\n<p><em>Läs del 3 i Dagens Medias stora special med rubriken \"Kallt krig om data\", i det senaste numret av magasinet där även Claes Pellvik på Ving och Lisa Palm Danielsson på McDonalds uttalar sig om transparensen efter GDPR.&nbsp;</em></p>\n<p><a href=\"http://edm.bbmbonnier.se/dagensmedia-prenumerera?elqTrackId=f64f64e7683749309a8f2b0ccfaa2bb4&amp;elq=00000000000000000000000000000000&amp;elqaid=549&amp;elqat=2&amp;elqCampaignId=\">Är du inte prenumerant? Här tecknar du dig för en prenumeration. </a>&nbsp;</p>",
+              "id": "67182b5e-986b-4ad9-9eb1-8e7bbb5976d4",
+              "authors": [],
+              "editorialClassifications": {
+                "newsValue": 1
+              },
+              "media": [
+                {
+                  "author": "Janne Næss/Dagens Media ",
+                  "crops": {
+                    "16x9": {
+                      "x": 71.11111111111109,
+                      "y": 0,
+                      "width": 1137.7777777777778,
+                      "height": 640
+                    }
+                  },
+                  "id": "klara.image.dd1e378d-9539-473f-a245-1d1e9e34da44",
+                  "caption": "På bild: Tero Marjamäki, Sveriges Annonsörer, Claes Pellvik, Ving, samt Lisa Palm Danielsson på McDonalds. ",
+                  "type": "image",
+                  "internalId": "3ee8f74e-3e65-492d-bb18-dbc8a5a3f081"
+                }
+              ],
+              "publishTime": "2018-11-30T06:37:53.800Z",
+              "preamble": "DAGENS MEDIA, NR 18. Mediebyråerna larmar om bristande transparens – men annonsörerna tar situationen med ro. ",
+              "updateTime": "2018-11-30T06:37:53.800Z"
+            },
+            "refs": {
+              "contentful.tag.1zxFi9hp8Qws062Yc8YaYY": {
+                "id": "1zxFi9hp8Qws062Yc8YaYY",
+                "sourceSystem": "contentful",
+                "contentType": "tag",
+                "document": {
+                  "name": "Dagens Media",
+                  "slug": "dagens-media"
+                }
+              },
+              "klara.image.dd1e378d-9539-473f-a245-1d1e9e34da44": {
+                "id": "dd1e378d-9539-473f-a245-1d1e9e34da44",
+                "sourceSystem": "klara",
+                "contentType": "image",
+                "document": {
+                  "originalUrl": "https://binary-proxy-bn-masterly-dmedia-prod.internal.elx.ohoy.io/binary/619ce9f5d3a4875f22ee7813a0a63a692c9a2cc1d3609c1c376a44192cf7a1d1",
+                  "mimetype": "image/png",
+                  "filename": "Special Annonsorer.png"
+                }
+              },
+              "contentful.section.4lsQkPeHC02CscMk0wIue0": {
+                "id": "4lsQkPeHC02CscMk0wIue0",
+                "sourceSystem": "contentful",
+                "contentType": "section",
+                "document": {
+                  "name": "Medier"
+                }
+              },
+              "contentful.section.u7lXD7Onkco2c6MAqq6iG": {
+                "id": "u7lXD7Onkco2c6MAqq6iG",
+                "sourceSystem": "contentful",
+                "contentType": "section",
+                "document": {
+                  "name": "Tidskrifter"
+                }
+              },
+              "contentful.tag.5wC6cPZXlCC02YeSQ8O2QU": {
+                "id": "5wC6cPZXlCC02YeSQ8O2QU",
+                "sourceSystem": "contentful",
+                "contentType": "tag",
+                "document": {
+                  "name": "GDPR",
+                  "slug": "gdpr"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index": "flow-raw1",
+        "_type": "raw",
+        "_id": "klara-dmedia.9c2536c3-1f1b-4fb5-95c3-1d2983e3eb91",
+        "_score": 0,
+        "_source": {
+          "id": "klara-dmedia.9c2536c3-1f1b-4fb5-95c3-1d2983e3eb91",
+          "_meta": {
+            "_objectType": "article",
+            "_originalId": "9c2536c3-1f1b-4fb5-95c3-1d2983e3eb91",
+            "_sourceSystem": "masterly-dmedia",
+            "_sourceLocation": null,
+            "_triggeredBy": "inc",
+            "_eTag": "3d3EikPwfb6YZZnPSQQTaj",
+            "_indexed": "2018-11-30T13:02:47.847+01:00"
+          },
+          "contentObject": {
+            "id": "9c2536c3-1f1b-4fb5-95c3-1d2983e3eb91",
+            "sourceSystem": "klara",
+            "contentType": "article",
+            "document": {
+              "headline": "Mediehusen sluter sig – så påverkas tredjepartsaktörerna",
+              "sections": [
+                "contentful.section.1OWIYXulSAkQmWAAekoAyw",
+                "contentful.section.4lsQkPeHC02CscMk0wIue0"
+              ],
+              "lastModifiedTime": "2018-11-30T12:02:47.611Z",
+              "tags": [
+                "contentful.tag.5wC6cPZXlCC02YeSQ8O2QU"
+              ],
+              "bodyText": "<p>I nummer 18 av Dagens Medias magasin gör vi en djupdykning i den utveckling som ägt rum efter att den nya dataskyddslagen GDPR trädde i kraft i slutet av maj, som inneburit att mediehusen i integritetens namn tagit en ökad kontroll över sin data.</p>\n<p>Det har dock i flera fall – bland annat vad gäller Sveriges största mediehus Schibsted och Bonnier – resulterat i att publicisterna uteslutit tredjepartsaktörer från sina system.</p>\n<p>För mediebyråer och annonsörer betyder det att transparensen minskar, då de istället tvingas förlita sig på mediehusens egna siffror.</p>\n<p>Ad-techbolagen Meetrics och Audience Project är två av de tredjepartsaktörer som mediebyråer använder sig av för att verifiera de medieköp de gör för sina kunders räkning.</p>\n<p>I veckans utskick av Dagens Media Insikt svarar Marcus Ericson, Sverigechef på Meetrics, och Jonas Jonsborg, Sverigechef på Audience Project, på hur de har tacklat den stora förändringen.&nbsp;</p>\n<p><a href=\"http://edm.bbmbonnier.se/dagensmedia-insikt-prov\">Här tecknar du dig för en gratis provprenumeration. </a>&nbsp;</p>",
+              "id": "9c2536c3-1f1b-4fb5-95c3-1d2983e3eb91",
+              "authors": [
+                "contentful.byline.4frMOvc71YimQiEicwgwsS"
+              ],
+              "editorialClassifications": {
+                "newsValue": 1
+              },
+              "media": [
+                {
+                  "id": "klara.image.68dffc0d-5995-4314-b52e-046b6f953161",
+                  "internalId": "65c7d6b4-59fb-4cbb-9de1-d968a030b03e",
+                  "type": "image",
+                  "crops": {
+                    "16x9": {
+                      "x": 71.11111111111109,
+                      "y": 0,
+                      "width": 1137.7777777777778,
+                      "height": 640
+                    }
+                  }
+                }
+              ],
+              "publishTime": "2018-11-30T12:02:47.611Z",
+              "preamble": "I den senaste utgåvan av Dagens Medias magasin konstateras att GDPR har lett till ett kallt krig om data. Men vad betyder det för tredjepartsaktörerna, som blir allt mer utestängda från mediehusens tekniska system?",
+              "updateTime": "2018-11-30T12:02:47.611Z"
+            },
+            "refs": {
+              "klara.image.68dffc0d-5995-4314-b52e-046b6f953161": {
+                "id": "68dffc0d-5995-4314-b52e-046b6f953161",
+                "sourceSystem": "klara",
+                "contentType": "image",
+                "document": {
+                  "originalUrl": "https://binary-proxy-bn-masterly-dmedia-prod.internal.elx.ohoy.io/binary/1dcc5b0535d72078fcc4d992c324bee6078b3af0786d82a275ebe619a8420186",
+                  "mimetype": "image/png",
+                  "filename": "Meetrics-audience_report.png"
+                }
+              },
+              "contentful.section.1OWIYXulSAkQmWAAekoAyw": {
+                "id": "1OWIYXulSAkQmWAAekoAyw",
+                "sourceSystem": "contentful",
+                "contentType": "section",
+                "document": {
+                  "name": "Digitalt"
+                }
+              },
+              "contentful.section.4lsQkPeHC02CscMk0wIue0": {
+                "id": "4lsQkPeHC02CscMk0wIue0",
+                "sourceSystem": "contentful",
+                "contentType": "section",
+                "document": {
+                  "name": "Medier"
+                }
+              },
+              "contentful.byline.4frMOvc71YimQiEicwgwsS": {
+                "id": "4frMOvc71YimQiEicwgwsS",
+                "sourceSystem": "contentful",
+                "contentType": "byline",
+                "document": {
+                  "area": [
+                    "Redaktion"
+                  ],
+                  "name": "Amanda Törner",
+                  "email": "amanda.torner@dagensmedia.se",
+                  "phoneNr": "070-845 08 06",
+                  "image": {
+                    "url": "https://images.ctfassets.net/mn1hhhtl0lzl/3RHlW1SC7CAQ8GG2ckiKse/d117e6853e84b4efb8596369380ebd8a/Amanda-Torner-byline.jpg",
+                    "description": null,
+                    "height": 320,
+                    "id": "3RHlW1SC7CAQ8GG2ckiKse",
+                    "contentType": "image/jpeg",
+                    "filename": "Amanda-Torner-byline.jpg",
+                    "title": "Amanda-Torner-byline",
+                    "type": "asset",
+                    "width": 320
+                  },
+                  "title": "Reporter"
+                }
+              },
+              "contentful.tag.5wC6cPZXlCC02YeSQ8O2QU": {
+                "id": "5wC6cPZXlCC02YeSQ8O2QU",
+                "sourceSystem": "contentful",
+                "contentType": "tag",
+                "document": {
+                  "name": "GDPR",
+                  "slug": "gdpr"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index": "flow-raw1",
+        "_type": "raw",
+        "_id": "klara-dmedia.0aa6411b-dffc-4e4f-94ae-bd36e6ba0109",
+        "_score": 0,
+        "_source": {
+          "id": "klara-dmedia.0aa6411b-dffc-4e4f-94ae-bd36e6ba0109",
+          "_meta": {
+            "_objectType": "article",
+            "_originalId": "0aa6411b-dffc-4e4f-94ae-bd36e6ba0109",
+            "_sourceSystem": "masterly-dmedia",
+            "_sourceLocation": null,
+            "_triggeredBy": "inc",
+            "_eTag": "36fjulMIjZTfvwtdwwQSZZ",
+            "_indexed": "2018-12-05T07:45:36.508+01:00"
+          },
+          "contentObject": {
+            "id": "0aa6411b-dffc-4e4f-94ae-bd36e6ba0109",
+            "sourceSystem": "klara",
+            "contentType": "article",
+            "document": {
+              "headline": "Sami Vikback lämnar MTV",
+              "sections": [
+                "contentful.section.16SamQVVzieCYMcccQ0ckw",
+                "contentful.section.4lsQkPeHC02CscMk0wIue0"
+              ],
+              "lastModifiedTime": "2018-12-05T06:45:36.237Z",
+              "tags": [
+                "contentful.tag.10foO1rMRwqM62cQisAisa",
+                "contentful.tag.3bIWXHtjoQOgcOKcgu6WAg"
+              ],
+              "bodyText": "<p>I samband med att MTV för drygt två år sedan förändrade sin operativmodell rekryterades Sami Vikback som affärsområdeschef för reklam-tv, för att vända en långvarig negativ utveckling.&nbsp;</p>\n<p>När de mål som sattes upp nu uppnåtts och såväl tittande, försäljning som resultat förbättras har Sami Vikback enligt ett pressmeddelande bestämt sig för att lämna verksamheten, och kommer återvända till Sverige i slutet av mars 2019.</p>\n<p>– Den finska marknaden har varit extremt tuff och utmanande, men vi ser nu en ljusning. MTV växer nu för första gången på sju år både när det gäller intäkter och tittande, vi ökar avståndet till våra konkurrenter och ser ett ökat förtroende från våra annonsörer. När vi nått hit känner jag att det är en bra tid att återvända till Sverige och familjen, och för MTV att ta nästa steg i arbetet, säger han i ett pressmeddelande.&nbsp;</p>\n<p>I samband med att Sami Vikback slutar organiserar MTV om verksamheten och skruvar i sin operativmodell, från att ha två affärer – reklam-tv och betal-tv – till en affär.&nbsp;</p>\n<p>Johannes Leppänen, i dag affärsområdeschef för betal-tv, får en ny roll som operativ chef för hela affären inom MTV. Reklam- och konsument-intäkterna slås därmed ihop, precis som inom Bonnier Broadcasting i Sverige där Mathias Berg är operativ chef och ansvarig för hela affären sedan i fjol.&nbsp;</p>\n<p>Samtidigt inför MTV en ny roll som kommersiell direktör med ansvar för annonsförsäljningen, som rapporterar direkt till vd Jarkko Nordlund.&nbsp;</p>\n<p>Kari Mononen, tidningen Ilta-Sanomats kommersiella direktör, har rekryterats till det jobbet och börjar i mars 2019. Syftet med rollen är att \"ytterligare förstärka den kraft och det momentum som nu byggts upp inom MTV:s annonsförsäljning\".</p>",
+              "id": "0aa6411b-dffc-4e4f-94ae-bd36e6ba0109",
+              "authors": [
+                "contentful.byline.4frMOvc71YimQiEicwgwsS"
+              ],
+              "editorialClassifications": {
+                "newsValue": 1
+              },
+              "media": [
+                {
+                  "crops": {
+                    "16x9": {
+                      "x": 53.33333333333337,
+                      "y": 0,
+                      "width": 853.3333333333333,
+                      "height": 480
+                    }
+                  },
+                  "id": "klara.image.5bb530b0-f60b-4d7b-80e3-193efe066874",
+                  "caption": "Sami Vikback, Johannes Leppänen och Kari Mononen.",
+                  "type": "image",
+                  "internalId": "d3496caa-2ac2-4b8d-9135-96ced85c3370"
+                }
+              ],
+              "publishTime": "2018-12-04T15:51:49.629Z",
+              "preamble": "Sami Vikback, affärsområdeschef för reklam-tv på MTV i Finland, lämnar bolaget och återvänder till Sverige. Samtidigt gör MTV en omorganisering.",
+              "updateTime": "2018-12-05T06:45:36.237Z"
+            },
+            "refs": {
+              "contentful.tag.10foO1rMRwqM62cQisAisa": {
+                "id": "10foO1rMRwqM62cQisAisa",
+                "sourceSystem": "contentful",
+                "contentType": "tag",
+                "document": {
+                  "name": "MTV",
+                  "slug": "mtv"
+                }
+              },
+              "contentful.section.4lsQkPeHC02CscMk0wIue0": {
+                "id": "4lsQkPeHC02CscMk0wIue0",
+                "sourceSystem": "contentful",
+                "contentType": "section",
+                "document": {
+                  "name": "Medier"
+                }
+              },
+              "contentful.section.16SamQVVzieCYMcccQ0ckw": {
+                "id": "16SamQVVzieCYMcccQ0ckw",
+                "sourceSystem": "contentful",
+                "contentType": "section",
+                "document": {
+                  "name": "Rörligt"
+                }
+              },
+              "contentful.byline.4frMOvc71YimQiEicwgwsS": {
+                "id": "4frMOvc71YimQiEicwgwsS",
+                "sourceSystem": "contentful",
+                "contentType": "byline",
+                "document": {
+                  "area": [
+                    "Redaktion"
+                  ],
+                  "name": "Amanda Törner",
+                  "email": "amanda.torner@dagensmedia.se",
+                  "phoneNr": "070-845 08 06",
+                  "image": {
+                    "url": "https://images.ctfassets.net/mn1hhhtl0lzl/3RHlW1SC7CAQ8GG2ckiKse/d117e6853e84b4efb8596369380ebd8a/Amanda-Torner-byline.jpg",
+                    "description": null,
+                    "height": 320,
+                    "id": "3RHlW1SC7CAQ8GG2ckiKse",
+                    "contentType": "image/jpeg",
+                    "filename": "Amanda-Torner-byline.jpg",
+                    "title": "Amanda-Torner-byline",
+                    "type": "asset",
+                    "width": 320
+                  },
+                  "title": "Reporter"
+                }
+              },
+              "contentful.tag.3bIWXHtjoQOgcOKcgu6WAg": {
+                "id": "3bIWXHtjoQOgcOKcgu6WAg",
+                "sourceSystem": "contentful",
+                "contentType": "tag",
+                "document": {
+                  "name": "Bonnier Broadcasting",
+                  "slug": "bonnier-broadcasting"
+                }
+              },
+              "klara.image.5bb530b0-f60b-4d7b-80e3-193efe066874": {
+                "id": "5bb530b0-f60b-4d7b-80e3-193efe066874",
+                "sourceSystem": "klara",
+                "contentType": "image",
+                "document": {
+                  "originalUrl": "https://binary-proxy-bn-masterly-dmedia-prod.internal.elx.ohoy.io/binary/9787ccefef72c9246ef03864c7231981a2345015d436662bd1061b7ccc0fb44f",
+                  "mimetype": "image/jpeg",
+                  "filename": "mtv-chefer.jpg"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index": "flow-raw1",
+        "_type": "raw",
+        "_id": "klara-dmedia.d08a6faf-c711-4efe-806f-8566703f63cb",
+        "_score": 0,
+        "_source": {
+          "id": "klara-dmedia.d08a6faf-c711-4efe-806f-8566703f63cb",
+          "_meta": {
+            "_objectType": "article",
+            "_originalId": "d08a6faf-c711-4efe-806f-8566703f63cb",
+            "_sourceSystem": "masterly-dmedia",
+            "_sourceLocation": null,
+            "_triggeredBy": "inc",
+            "_eTag": "1RJkd1SeeEilPpn7On5F3N",
+            "_indexed": "2018-12-04T15:09:53.936+01:00"
+          },
+          "contentObject": {
+            "id": "d08a6faf-c711-4efe-806f-8566703f63cb",
+            "sourceSystem": "klara",
+            "contentType": "article",
+            "document": {
+              "headline": "Elle Decorations chefredaktör lämnar",
+              "sections": [
+                "contentful.section.u7lXD7Onkco2c6MAqq6iG",
+                "contentful.section.4lsQkPeHC02CscMk0wIue0"
+              ],
+              "lastModifiedTime": "2018-12-04T14:09:53.739Z",
+              "tags": [
+                "contentful.tag.4RAhrr4FN6KeMwIeKm6yu0",
+                "contentful.tag.NBadI6MQU0imYoYQkoYY8"
+              ],
+              "bodyText": "<p>Svante Öquist har jobbat med varumärket Elle i mer än 30 år, först som art director och de senaste 22 åren som chefredaktör för Elle Decoration.&nbsp;</p>\n<p>Från och med september tog dock Cia Jansson, också chefredaktör för Elle, över rodret för både Elle Decoration och Elle mat &amp; vin.&nbsp;</p>\n<p>\"Det jag kan säga så här i korthet är att jag, i början av juni, blev uppsagd från min tjänst som chefredaktör på Elle Decoration. Detta som en följd av en omorganisation\", skriver Svante Öquist i ett mejl till Dagens Media.&nbsp;</p>\n<p>Svante Öquist kommer nu att börja blogga hos Femina, som liksom Elle ägs av Aller.&nbsp;</p>\n<p>Han beskriver bloggen i ett pressmeddelande:&nbsp;</p>\n<p>– I min blogg kommer jag att skildra det som är ”Svantes Värld” – mitt och min familjs liv i vårt hus och i vår trädgård. Till vardag och till fest – med växlande dagar, veckor, månader och årstider. Vi bor i ett arkitektritat hus från 1955 – som också är vårt drömboende. Förutom själva huset och den husvård som ett K-märkt hus behöver, blir det mycket tankar om hur vi inreder – i såväl huset som i trädgården. En stark tro på tesen att det blir bra om vi omger oss med saker vi tycker om – inte det som någon annan bestämt är det som gäller nu.&nbsp;</p>\n<p>Femina berättar i samma veva att man också stärker upp stallet av bloggare med Claudia Galli Concha, som är skådespelare, influencer, filmproducent och driver klädmärket Pocci Pocci.</p>",
+              "id": "d08a6faf-c711-4efe-806f-8566703f63cb",
+              "authors": [
+                "contentful.byline.4frMOvc71YimQiEicwgwsS"
+              ],
+              "editorialClassifications": {
+                "newsValue": 1
+              },
+              "media": [
+                {
+                  "crops": {
+                    "16x9": {
+                      "x": 53.33333333333337,
+                      "y": 0,
+                      "width": 853.3333333333333,
+                      "height": 480
+                    }
+                  },
+                  "id": "klara.image.3367a888-94b7-42f4-9e38-90f1307def5c",
+                  "caption": "Svante Öquist. ",
+                  "type": "image",
+                  "internalId": "cef9e57e-343d-42a1-82d0-41032b952c3b"
+                }
+              ],
+              "publishTime": "2018-12-04T13:57:20.525Z",
+              "preamble": "Svante Öquist har slutat som chefredaktör på Elle Decoration – efter 22 år. Nu blir han bloggare hos Femina. ",
+              "updateTime": "2018-12-04T14:09:53.739Z"
+            },
+            "refs": {
+              "klara.image.3367a888-94b7-42f4-9e38-90f1307def5c": {
+                "id": "3367a888-94b7-42f4-9e38-90f1307def5c",
+                "sourceSystem": "klara",
+                "contentType": "image",
+                "document": {
+                  "originalUrl": "https://binary-proxy-bn-masterly-dmedia-prod.internal.elx.ohoy.io/binary/490e7d6e3d15cf2d41e2f4bb4d3edcc5e78a4f6369b45768bd75a7a20792791c",
+                  "mimetype": "image/jpeg",
+                  "filename": "svante-oquist.jpg"
+                }
+              },
+              "contentful.tag.NBadI6MQU0imYoYQkoYY8": {
+                "id": "NBadI6MQU0imYoYQkoYY8",
+                "sourceSystem": "contentful",
+                "contentType": "tag",
+                "document": {
+                  "name": "Aller Media",
+                  "slug": "aller-media"
+                }
+              },
+              "contentful.section.4lsQkPeHC02CscMk0wIue0": {
+                "id": "4lsQkPeHC02CscMk0wIue0",
+                "sourceSystem": "contentful",
+                "contentType": "section",
+                "document": {
+                  "name": "Medier"
+                }
+              },
+              "contentful.byline.4frMOvc71YimQiEicwgwsS": {
+                "id": "4frMOvc71YimQiEicwgwsS",
+                "sourceSystem": "contentful",
+                "contentType": "byline",
+                "document": {
+                  "area": [
+                    "Redaktion"
+                  ],
+                  "name": "Amanda Törner",
+                  "email": "amanda.torner@dagensmedia.se",
+                  "phoneNr": "070-845 08 06",
+                  "image": {
+                    "url": "https://images.ctfassets.net/mn1hhhtl0lzl/3RHlW1SC7CAQ8GG2ckiKse/d117e6853e84b4efb8596369380ebd8a/Amanda-Torner-byline.jpg",
+                    "description": null,
+                    "height": 320,
+                    "id": "3RHlW1SC7CAQ8GG2ckiKse",
+                    "contentType": "image/jpeg",
+                    "filename": "Amanda-Torner-byline.jpg",
+                    "title": "Amanda-Torner-byline",
+                    "type": "asset",
+                    "width": 320
+                  },
+                  "title": "Reporter"
+                }
+              },
+              "contentful.section.u7lXD7Onkco2c6MAqq6iG": {
+                "id": "u7lXD7Onkco2c6MAqq6iG",
+                "sourceSystem": "contentful",
+                "contentType": "section",
+                "document": {
+                  "name": "Tidskrifter"
+                }
+              },
+              "contentful.tag.4RAhrr4FN6KeMwIeKm6yu0": {
+                "id": "4RAhrr4FN6KeMwIeKm6yu0",
+                "sourceSystem": "contentful",
+                "contentType": "tag",
+                "document": {
+                  "name": "Elle",
+                  "slug": "elle"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index": "flow-raw1",
+        "_type": "raw",
+        "_id": "klara-dmedia.7a0a8ea1-087b-482f-88cb-671a107ac217",
+        "_score": 0,
+        "_source": {
+          "id": "klara-dmedia.7a0a8ea1-087b-482f-88cb-671a107ac217",
+          "_meta": {
+            "_objectType": "article",
+            "_originalId": "7a0a8ea1-087b-482f-88cb-671a107ac217",
+            "_sourceSystem": "masterly-dmedia",
+            "_sourceLocation": null,
+            "_triggeredBy": "inc",
+            "_eTag": "3ymsZCz4qjrzKdInihMKnn",
+            "_indexed": "2018-11-27T09:58:58.817+01:00"
+          },
+          "contentObject": {
+            "id": "7a0a8ea1-087b-482f-88cb-671a107ac217",
+            "sourceSystem": "klara",
+            "contentType": "article",
+            "document": {
+              "headline": "Juristens tips – tänk på det här i rea-tider",
+              "sections": [
+                "contentful.section.w2FRTt9osKUIAAm8qYuY6",
+                "contentful.section.vtioMw0zD2KgeiI4keUW2"
+              ],
+              "lastModifiedTime": "2018-11-19T12:22:03.305Z",
+              "tags": [
+                "contentful.tag.3zm4fo5J7y0IyGAQwqW6Ok",
+                "contentful.tag.cC00GpbayAo8SWI48Gig4"
+              ],
+              "bodyText": "<p>Reornas tid är här. Nyligen var det Singles Day, snart är det Black Friday, Cyber Monday och mellandagsrea. Reorna duggar tätt. Som annonsör kan det vara svårt att veta vad som är tillåtet och många bryter idag mot lagar och regler. Här reder Sveriges Annonsörers jurist Niklas Briselius ut några frågetecken.&nbsp;</p>\n<p><strong>Vad räknas som en rea?</strong></p>\n<p>– Ordet realisation (rea) finns reglerat i Marknadsföringslagen (MFL). Anledningen till det är att uttryck som exempelvis rea eller liknande skapar en förväntan om förmånliga köp och påverkar vår förmåga att fatta välgrundade affärsbeslut. Det kan enligt MFL endast vara rea om varorna som säljs på rean ingår i ditt ordinarie sortiment, försäljningen av dessa sker under begränsad tid och priserna för dessa är väsentligt lägre än vad det är när det inte är rea. Allt detta måste vara uppfyllt för att anse som en rea.</p>\n<p><strong>Hur lång tid får en rea pågå?</strong></p>\n<p>– Rea får endast ske under en begränsad tid. Vad som är en begränsad tid får avgöras från fall till och bedöms utifrån sedvana/god sed i respektive bransch. I ett domstolsavgörande från tidigt 1980-tal ansåg Marknadsdomstolen att en realisation för en färg- och tapetaffär fick pågå i högst några veckor och att en rea under två månader var att betrakta som missvisande. I ett godkänt förbudsföreläggande har Konsumentombudsmannen (KO) dragit en gräns vid elva veckor vid rea av hemtextilier.</p>\n<p><strong>Finns det något jag absolut inte får ha med/påstå i min reklam när det kommer till rea?</strong></p>\n<p>– Det är givetvis grundläggande att förutsättningarna för att det som ni kallar för en rea verkligen är uppfyllda. Tänk även på att reglerna gäller på samma sätt även om ni kallar er rea just rea eller något annat. I MFL står det även att det gäller andra liknande uttryck med liknande innebörd så det går inte att använda sig av andra påståenden med liknande innebörd. I övrigt ska ni givetvis följa marknadsrättsliga regler i er marknadsföring och inte utelämna viktig information. Tänk även på att varje marknadsföringsenhet bedöms var sig och finns det villkor/undantag som gäller måste det finnas med i varje enhet där ni gör marknadsföringen.</p>\n<p><strong>Jag har ett tillfälligt parti av produkter, får jag skylta dem som rea?</strong></p>\n<p>– Nej, de produkter som säljs på en rea får bara avse försäljning av produkter som ingår i företagets ordinarie sortiment. Givetvis får ni sälja ert tillfälliga parti men då får man vara tydlig med att det är försäljning av ett tillfälligt parti och inte en rea.</p>",
+              "id": "7a0a8ea1-087b-482f-88cb-671a107ac217",
+              "authors": [],
+              "editorialClassifications": {
+                "newsValue": 1
+              },
+              "media": [
+                {
+                  "id": "klara.image.5364d4c2-b797-48c0-8ede-c7ba663c0214",
+                  "internalId": "15019c41-50b4-469e-baca-a06bb603c97a",
+                  "type": "image",
+                  "crops": {
+                    "16x9": {
+                      "x": 53.33333333333337,
+                      "y": 0,
+                      "width": 853.3333333333333,
+                      "height": 480
+                    }
+                  }
+                }
+              ],
+              "publishTime": "2018-11-19T12:10:47.188Z",
+              "preamble": "Sveriges Annonsörers jurist Niklas Briselius reder ut några frågetecken kring readagar. ",
+              "updateTime": "2018-11-19T12:22:03.305Z"
+            },
+            "refs": {
+              "contentful.tag.cC00GpbayAo8SWI48Gig4": {
+                "id": "cC00GpbayAo8SWI48Gig4",
+                "sourceSystem": "contentful",
+                "contentType": "tag",
+                "document": {
+                  "name": "Black Friday",
+                  "slug": "black-friday"
+                }
+              },
+              "contentful.section.w2FRTt9osKUIAAm8qYuY6": {
+                "id": "w2FRTt9osKUIAAm8qYuY6",
+                "sourceSystem": "contentful",
+                "contentType": "section",
+                "document": {
+                  "name": "Tips och inspiration"
+                }
+              },
+              "contentful.section.vtioMw0zD2KgeiI4keUW2": {
+                "id": "vtioMw0zD2KgeiI4keUW2",
+                "sourceSystem": "contentful",
+                "contentType": "section",
+                "document": {
+                  "name": "Experter/tyckare"
+                }
+              },
+              "contentful.tag.3zm4fo5J7y0IyGAQwqW6Ok": {
+                "id": "3zm4fo5J7y0IyGAQwqW6Ok",
+                "sourceSystem": "contentful",
+                "contentType": "tag",
+                "document": {
+                  "name": "Sveriges Annonsörer",
+                  "slug": "sveriges-annonsorer"
+                }
+              },
+              "klara.image.5364d4c2-b797-48c0-8ede-c7ba663c0214": {
+                "id": "5364d4c2-b797-48c0-8ede-c7ba663c0214",
+                "sourceSystem": "klara",
+                "contentType": "image",
+                "document": {
+                  "originalUrl": "https://binary-proxy-bn-masterly-dmedia-prod.internal.elx.ohoy.io/binary/3cef8e035d841439d871e10a5d5ffe4179a0fa2c985a8dcca58288bc31248a76",
+                  "mimetype": "image/jpeg",
+                  "filename": "sa.jpg"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index": "flow-raw1",
+        "_type": "raw",
+        "_id": "klara-dmedia.ddf2456a-12f4-49cc-af63-840504a70c10",
+        "_score": 0,
+        "_source": {
+          "id": "klara-dmedia.ddf2456a-12f4-49cc-af63-840504a70c10",
+          "_meta": {
+            "_objectType": "article",
+            "_originalId": "ddf2456a-12f4-49cc-af63-840504a70c10",
+            "_sourceSystem": "masterly-dmedia",
+            "_sourceLocation": null,
+            "_triggeredBy": "inc",
+            "_eTag": "6W5W2LXRJaoVqim7Ck1QpV",
+            "_indexed": "2018-11-27T09:58:32.713+01:00"
+          },
+          "contentObject": {
+            "id": "ddf2456a-12f4-49cc-af63-840504a70c10",
+            "sourceSystem": "klara",
+            "contentType": "article",
+            "document": {
+              "headline": "Så många såg premiären av \"Så mycket bättre\"",
+              "sections": [
+                "contentful.section.16SamQVVzieCYMcccQ0ckw",
+                "contentful.section.4lsQkPeHC02CscMk0wIue0"
+              ],
+              "lastModifiedTime": "2018-10-23T08:46:16.508Z",
+              "tags": [
+                "contentful.tag.6GqL7SgCCQcq0oSOCWao8K",
+                "contentful.tag.27Q3RTmFEQeSOCugQU2e8w"
+              ],
+              "bodyText": "<p>I helgen var det premiär för ett av TV4:s stora flaggskepp – \"Så mycket bättre\". Programmet sändes mellan 20.00 och 22.00 på lördagen.</p>\n<p>Det första avsnittet lockade en publik på 1,6 miljoner, enligt preliminära siffror från MMS. Ratingen i målgruppen 15-64 år landade på 14,7 procent och tittartidsandelen på 58,2 procent.</p>\n<p>Även om programmet lockade miljonpublik så är det en svagare siffra, jämfört med föregående premiär. Förra årets program lockade runt 1,9 miljoner tittare, hade en rating på 20,1 procent och en tittartidsandel på 62,4 procent.</p>\n<p>- Vi har en fin start med 1,6 miljoner som lovar gott och där vi parkerar som etta på veckans tittartopp. Vi tappar lite linjärt men ökar också något digitalt. Vi kan ju också först summera mot slutet av veckan då vi har det totala utfallet på både C More och TV4 Play. Många starka avsnitt väntar med den här fina casten och vi ser fram emot fortsättningen med tillförsikt, säger Martin Nygren, exekutiv producent för \"Så mycket bättre\" i en kommentar.</p>\n<p><strong>Här är premiärsiffrorna mellan 2014 och 2018:</strong></p>\n<p>(Tittarsiffra/tittartidsandel/rating)</p>\n<p>2018: 1,6 miljoner/58,2 procent/14,7 procent</p>\n<p>2017: 1,9 miljoner/62,4 procent/20,1 procent</p>\n<p>2016: 2,2 miljoner/62 procent/23,4 procent</p>\n<p>2015: 1,8 miljoner/52,5 procent/19,4 procent</p>\n<p>2014: 2,3 miljoner/ej jämförbart då målgruppen 15-64 år inte fanns 2014</p>",
+              "id": "ddf2456a-12f4-49cc-af63-840504a70c10",
+              "authors": [
+                "contentful.byline.24i0XQs64wyouy0m4MwQU0"
+              ],
+              "editorialClassifications": {
+                "newsValue": 1
+              },
+              "media": [
+                {
+                  "id": "klara.image.85cdf90c-8d57-436b-9248-ab8f3995a1eb",
+                  "internalId": "ae9eb225-063e-48aa-ac03-0aafcf47548e",
+                  "type": "image",
+                  "crops": {
+                    "16x9": {
+                      "x": 0,
+                      "y": 0,
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                }
+              ],
+              "publishTime": "2018-10-22T14:06:05.643Z",
+              "preamble": "Svagaste starten för programmet sedan 2014.",
+              "updateTime": "2018-10-23T08:46:16.508Z"
+            },
+            "refs": {
+              "klara.image.85cdf90c-8d57-436b-9248-ab8f3995a1eb": {
+                "id": "85cdf90c-8d57-436b-9248-ab8f3995a1eb",
+                "sourceSystem": "klara",
+                "contentType": "image",
+                "document": {
+                  "originalUrl": "https://binary-proxy-bn-masterly-dmedia-prod.internal.elx.ohoy.io/binary/afb3bb675eb45232cb30b6592c44e17147e8cd1bdf610cbd27ca512a2375b0da",
+                  "mimetype": "image/jpeg",
+                  "filename": "TV4.jpg"
+                }
+              },
+              "contentful.section.4lsQkPeHC02CscMk0wIue0": {
+                "id": "4lsQkPeHC02CscMk0wIue0",
+                "sourceSystem": "contentful",
+                "contentType": "section",
+                "document": {
+                  "name": "Medier"
+                }
+              },
+              "contentful.section.16SamQVVzieCYMcccQ0ckw": {
+                "id": "16SamQVVzieCYMcccQ0ckw",
+                "sourceSystem": "contentful",
+                "contentType": "section",
+                "document": {
+                  "name": "Rörligt"
+                }
+              },
+              "contentful.byline.24i0XQs64wyouy0m4MwQU0": {
+                "id": "24i0XQs64wyouy0m4MwQU0",
+                "sourceSystem": "contentful",
+                "contentType": "byline",
+                "document": {
+                  "area": [
+                    "Redaktion"
+                  ],
+                  "name": "Hanna Frick",
+                  "email": "hanna.frick@dagensmedia.se",
+                  "phoneNr": "073-1432159",
+                  "image": {
+                    "url": "https://images.ctfassets.net/mn1hhhtl0lzl/4hy7fuz96MCScoucgUyQq8/70de69255238ad382938588987f443f3/Hanna-Frick-byline.jpg",
+                    "description": null,
+                    "height": 320,
+                    "id": "4hy7fuz96MCScoucgUyQq8",
+                    "contentType": "image/jpeg",
+                    "filename": "Hanna-Frick-byline.jpg",
+                    "title": "Hanna-Frick-byline",
+                    "type": "asset",
+                    "width": 320
+                  },
+                  "title": "Reporter"
+                }
+              },
+              "contentful.tag.27Q3RTmFEQeSOCugQU2e8w": {
+                "id": "27Q3RTmFEQeSOCugQU2e8w",
+                "sourceSystem": "contentful",
+                "contentType": "tag",
+                "document": {
+                  "name": "Så mycket bättre",
+                  "slug": "sa-mycket-battre"
+                }
+              },
+              "contentful.tag.6GqL7SgCCQcq0oSOCWao8K": {
+                "id": "6GqL7SgCCQcq0oSOCWao8K",
+                "sourceSystem": "contentful",
+                "contentType": "tag",
+                "document": {
+                  "name": "TV4-gruppen",
+                  "slug": "tv4-gruppen"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index": "flow-raw1",
+        "_type": "raw",
+        "_id": "klara-dmedia.35833952-d2c1-4d3a-87ba-f9891f4c2aec",
+        "_score": 0,
+        "_source": {
+          "id": "klara-dmedia.35833952-d2c1-4d3a-87ba-f9891f4c2aec",
+          "_meta": {
+            "_objectType": "article",
+            "_originalId": "35833952-d2c1-4d3a-87ba-f9891f4c2aec",
+            "_sourceSystem": "masterly-dmedia",
+            "_sourceLocation": null,
+            "_triggeredBy": "inc",
+            "_eTag": "1bHnG2BmXeA044WA38DtHJ",
+            "_indexed": "2018-11-27T09:58:31.626+01:00"
+          },
+          "contentObject": {
+            "id": "35833952-d2c1-4d3a-87ba-f9891f4c2aec",
+            "sourceSystem": "klara",
+            "contentType": "article",
+            "document": {
+              "headline": "Testar en publicering",
+              "lastModifiedTime": "2018-10-16T14:33:05.952Z",
+              "bodyText": "<p>Första publiceringen på prod!</p>",
+              "id": "35833952-d2c1-4d3a-87ba-f9891f4c2aec",
+              "authors": [],
+              "editorialClassifications": {
+                "newsValue": 1
+              },
+              "media": [],
+              "publishTime": "2018-10-16T14:33:05.952Z",
+              "preamble": "",
+              "unpublishedAt": "2018-10-16T14:37:47.310Z",
+              "updateTime": "2018-10-16T14:33:05.952Z"
+            },
+            "refs": {}
+          }
+        }
+      },
+      {
+        "_index": "flow-raw1",
+        "_type": "raw",
+        "_id": "klara-dmedia.05fa525b-3b64-4443-99ed-408c9e2b21b7",
+        "_score": 0,
+        "_source": {
+          "id": "klara-dmedia.05fa525b-3b64-4443-99ed-408c9e2b21b7",
+          "_meta": {
+            "_objectType": "article",
+            "_originalId": "05fa525b-3b64-4443-99ed-408c9e2b21b7",
+            "_sourceSystem": "masterly-dmedia",
+            "_sourceLocation": null,
+            "_triggeredBy": "inc",
+            "_eTag": "3ZAF82J0IlgyYQkMx1I0Uf",
+            "_indexed": "2018-11-27T09:58:40.418+01:00"
+          },
+          "contentObject": {
+            "id": "05fa525b-3b64-4443-99ed-408c9e2b21b7",
+            "sourceSystem": "klara",
+            "contentType": "article",
+            "document": {
+              "headline": "Ny eventpartner till Guldnyckeln ",
+              "sections": [
+                "contentful.section.67eAS2lFM40Ks06WGM6mMG"
+              ],
+              "lastModifiedTime": "2018-10-25T12:58:57.660Z",
+              "tags": [
+                "contentful.tag.6zUDR770uQI4kMIWi4u20G"
+              ],
+              "bodyText": "<p>Guldnyckeln är tävlingen som prisar Sveriges bästa datadrivna kommunikation. Inför kommande tävling har man valt PS Communication som ny eventpartner.</p>\n<p>Byrån kommer även ansvara för den strategiska utvecklingen av Guldnyckeln.&nbsp;</p>\n<p>– Det är dags att ta ett ordentligt tag om eventet och göra någonting nytt, säger Guldnyckelns projektledare Michaela Pålsson och fortsätter:&nbsp;</p>\n<p>- Swedma, organisationen bakom Guldnyckeln, befinner sig just nu i en förändringsprocess där Guldnyckeln är en viktig del. Swedma representerar en ecosystem som går mer och mer åt det datadrivna och det är just vad Guldnyckeln ska stå för. Tillsammans med PS har vi nu tagit fram en plan för Guldnyckelns riktning de närmaste åren där focus är data, tech och marketing då vi kommer löpande tillsammans med våra medlemmar utveckla Guldnyckeln framåt.</p>\n<p>Swedma har arrangerat Guldnyckeln i 35 år och 2019 arrangeras Guldnyckeln för 36 gången på München Bryggeriet i Stockholm.&nbsp;</p>\n<p>- Vi är intresserade och imponerade över Swedmas plan för framtiden. Kommunikationsbranschen omformas just nu där data, insikter och tech i kombination med bra idéer är helt centrala även när vi bygger vår byrå för framtiden. Därför är det extra roligt att få ta sig an Guldnyckeln, säger Marie Lasota, vd på PS Communication, i ett pressmeddelande.&nbsp;</p>\n<p><strong>Projektgruppen för Guldnyckeln 2019 består av:</strong></p>\n<p>PS Communication</p>\n<p>Jessica Jonsson, projektledare</p>\n<p>Lars Andersson, planner</p>\n<p>Louise Steinbrecher, kundansvarig</p>\n<p>Victor Agestam, produktionsledare</p>\n<p>Kent Lovén, Art Director</p>\n<p>Anna Mourou, Innehållsproducent</p>\n<p><strong>Swedma</strong></p>\n<p>Michaela Pålsson, projektledare</p>\n<p>Malin Anglert, vd</p>",
+              "id": "05fa525b-3b64-4443-99ed-408c9e2b21b7",
+              "authors": [
+                "contentful.byline.24i0XQs64wyouy0m4MwQU0"
+              ],
+              "editorialClassifications": {
+                "newsValue": 1
+              },
+              "media": [
+                {
+                  "id": "klara.image.1ba43a82-60e0-4c3f-abe4-1e5cedb86184",
+                  "internalId": "8e92c070-36d4-4e63-90a4-67ff50e14fcf",
+                  "type": "image",
+                  "crops": {
+                    "16x9": {
+                      "x": 0,
+                      "y": 0,
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                }
+              ],
+              "publishTime": "2018-10-23T13:32:57.914Z",
+              "preamble": "Guldnyckeln stakar ut ny plan tillsammans med nya byrån. ",
+              "updateTime": "2018-10-25T12:58:57.660Z"
+            },
+            "refs": {
+              "contentful.tag.6zUDR770uQI4kMIWi4u20G": {
+                "id": "6zUDR770uQI4kMIWi4u20G",
+                "sourceSystem": "contentful",
+                "contentType": "tag",
+                "document": {
+                  "name": "Guldnyckeln",
+                  "slug": "guldnyckeln"
+                }
+              },
+              "contentful.section.67eAS2lFM40Ks06WGM6mMG": {
+                "id": "67eAS2lFM40Ks06WGM6mMG",
+                "sourceSystem": "contentful",
+                "contentType": "section",
+                "document": {
+                  "name": "Marknadsföring"
+                }
+              },
+              "klara.image.1ba43a82-60e0-4c3f-abe4-1e5cedb86184": {
+                "id": "1ba43a82-60e0-4c3f-abe4-1e5cedb86184",
+                "sourceSystem": "klara",
+                "contentType": "image",
+                "document": {
+                  "originalUrl": "https://binary-proxy-bn-masterly-dmedia-prod.internal.elx.ohoy.io/binary/3ff730d8a63869a8ee3ddd3840a17355f2d4bee455c38dac2ff93428dfc66c51",
+                  "mimetype": "image/jpeg",
+                  "filename": "Guldnyckeln_PS_Communication.jpg"
+                }
+              },
+              "contentful.byline.24i0XQs64wyouy0m4MwQU0": {
+                "id": "24i0XQs64wyouy0m4MwQU0",
+                "sourceSystem": "contentful",
+                "contentType": "byline",
+                "document": {
+                  "area": [
+                    "Redaktion"
+                  ],
+                  "name": "Hanna Frick",
+                  "email": "hanna.frick@dagensmedia.se",
+                  "phoneNr": "073-1432159",
+                  "image": {
+                    "url": "https://images.ctfassets.net/mn1hhhtl0lzl/4hy7fuz96MCScoucgUyQq8/70de69255238ad382938588987f443f3/Hanna-Frick-byline.jpg",
+                    "description": null,
+                    "height": 320,
+                    "id": "4hy7fuz96MCScoucgUyQq8",
+                    "contentType": "image/jpeg",
+                    "filename": "Hanna-Frick-byline.jpg",
+                    "title": "Hanna-Frick-byline",
+                    "type": "asset",
+                    "width": 320
+                  },
+                  "title": "Reporter"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index": "flow-raw1",
+        "_type": "raw",
+        "_id": "klara-dmedia.d99fd6d2-555b-4f4f-9144-d3cea21f77c0",
+        "_score": 0,
+        "_source": {
+          "id": "klara-dmedia.d99fd6d2-555b-4f4f-9144-d3cea21f77c0",
+          "_meta": {
+            "_objectType": "article",
+            "_originalId": "d99fd6d2-555b-4f4f-9144-d3cea21f77c0",
+            "_sourceSystem": "masterly-dmedia",
+            "_sourceLocation": null,
+            "_triggeredBy": "inc",
+            "_eTag": "4sZ8Ov94tAPkkvg1cZXTN3",
+            "_indexed": "2018-11-27T09:58:40.604+01:00"
+          },
+          "contentObject": {
+            "id": "d99fd6d2-555b-4f4f-9144-d3cea21f77c0",
+            "sourceSystem": "klara",
+            "contentType": "article",
+            "document": {
+              "headline": "Streamingkriget: \"Köparnas marknad\"",
+              "sections": [
+                "contentful.section.16SamQVVzieCYMcccQ0ckw",
+                "contentful.section.4lsQkPeHC02CscMk0wIue0"
+              ],
+              "lastModifiedTime": "2018-10-26T12:14:53.291Z",
+              "tags": [
+                "contentful.tag.6ELrDV3NKMusea6mYMiqau",
+                "contentful.tag.1jWCp5JngOGsyog4ci2SU8"
+              ],
+              "bodyText": "<p>Den digitala utvecklingen har gått rekordsnabbt och fortfarande famlar många bolag och tv-kanaler för att hitta balansen. Ingen vet riktigt var det kommer att sluta.</p>\n<p>Ett nyckelord som nämns för att klara konkurrensen är samarbete: både mellan rivaliserande tv-kanaler och mellan traditionella bolag och streamingbolagen.&nbsp;</p>\n<p>Brittiska BBC producerar exempelvis en miniserie i tre delar om Dracula i samarbete med Netflix. I Norden har public service-bolagen en lång tradition av samarbete och till SVT:s succéserie \"Vår tid är nu\" var Viaplay medproducent.</p>\n<p>– Vi ser en ny dynamik inom underhållningsindustrin. Den goda nyheten är att fler tittare ser på fler program under längre tid och på fler plattformar än man någonsin gjort tidigare. Men den stora frågan är hur bolagen genom samarbete eller konkurrens ska kunna hitta rätt innehåll för rätt målgrupp, säger Jerome Delhaye, på Mipcom-arrangören Reedmidem.</p>\n<p>Läs hela artikeln i Dagens Media Insikt, vecka 43.</p>\n<p><a href=\"http://edm.bbmbonnier.se/dagensmedia-insikt-prov\"><strong>Här tecknar du dig för en gratis provprenumeration. </strong></a><strong>&nbsp;</strong></p>\n<p>Ninna Bengtsson,<br>\nfrilans</p>\n",
+              "id": "d99fd6d2-555b-4f4f-9144-d3cea21f77c0",
+              "authors": [],
+              "editorialClassifications": {
+                "newsValue": 1
+              },
+              "media": [
+                {
+                  "author": "Ninna Bengtsson",
+                  "crops": {
+                    "16x9": {
+                      "x": 71.72222222222229,
+                      "y": 0,
+                      "width": 1139.5555555555554,
+                      "height": 641
+                    }
+                  },
+                  "id": "klara.image.212cd33a-89ad-4c18-b33b-e1568360a56b",
+                  "caption": "Mipcom arrangerades nyligen i Cannes. ",
+                  "type": "image",
+                  "internalId": "2ed03061-a639-40ba-a6d3-d3256ed7c2f3"
+                }
+              ],
+              "publishTime": "2018-10-26T12:14:53.291Z",
+              "preamble": "Medielandskapet har förändrats dramatiskt med streamingjättarnas intåg. För tv-branschen väntar stora omställningar och en lösning stavas mer samarbete.",
+              "updateTime": "2018-10-26T12:14:53.291Z"
+            },
+            "refs": {
+              "contentful.tag.6ELrDV3NKMusea6mYMiqau": {
+                "id": "6ELrDV3NKMusea6mYMiqau",
+                "sourceSystem": "contentful",
+                "contentType": "tag",
+                "document": {
+                  "name": "Webb-tv",
+                  "slug": "webb-tv"
+                }
+              },
+              "klara.image.212cd33a-89ad-4c18-b33b-e1568360a56b": {
+                "id": "212cd33a-89ad-4c18-b33b-e1568360a56b",
+                "sourceSystem": "klara",
+                "contentType": "image",
+                "document": {
+                  "originalUrl": "https://binary-proxy-bn-masterly-dmedia-prod.internal.elx.ohoy.io/binary/754b83efde3ab0c9948f6117f111c198f0a077d22e404c668bd1252080cdd1cd",
+                  "mimetype": "image/jpeg",
+                  "filename": "Mip_insikt.jpg"
+                }
+              },
+              "contentful.section.4lsQkPeHC02CscMk0wIue0": {
+                "id": "4lsQkPeHC02CscMk0wIue0",
+                "sourceSystem": "contentful",
+                "contentType": "section",
+                "document": {
+                  "name": "Medier"
+                }
+              },
+              "contentful.section.16SamQVVzieCYMcccQ0ckw": {
+                "id": "16SamQVVzieCYMcccQ0ckw",
+                "sourceSystem": "contentful",
+                "contentType": "section",
+                "document": {
+                  "name": "Rörligt"
+                }
+              },
+              "contentful.tag.1jWCp5JngOGsyog4ci2SU8": {
+                "id": "1jWCp5JngOGsyog4ci2SU8",
+                "sourceSystem": "contentful",
+                "contentType": "tag",
+                "document": {
+                  "name": "Netflix",
+                  "slug": "netflix"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

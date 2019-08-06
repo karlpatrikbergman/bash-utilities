@@ -1,0 +1,116 @@
+{
+  "id": "klara-dmedia.772ea133-738f-480c-95c9-11c64329fc3e",
+  "_meta": {
+    "_objectType": "article",
+    "_originalId": "772ea133-738f-480c-95c9-11c64329fc3e",
+    "_sourceSystem": "masterly-dmedia",
+    "_sourceLocation": null,
+    "_triggeredBy": "inc",
+    "_eTag": "4ZMz89FE0DMZ0sTvandzfh",
+    "_indexed": "2019-01-25T16:26:08.959+01:00"
+  },
+  "contentObject": {
+    "id": "772ea133-738f-480c-95c9-11c64329fc3e",
+    "sourceSystem": "klara",
+    "contentType": "article",
+    "document": {
+      "headline": "Karolina Stallwood: \"Innehåll får mig att gå upp på morgonen\"",
+      "sections": [
+        "contentful.section.16SamQVVzieCYMcccQ0ckw"
+      ],
+      "lastModifiedTime": "2019-01-25T15:26:08.705Z",
+      "tags": [
+        "contentful.tag.6FkW577vI44aK6gyU8akMQ",
+        "contentful.tag.6GqL7SgCCQcq0oSOCWao8K",
+        "contentful.tag.1WpGWUByLaoKEuaYeY2kYU"
+      ],
+      "bodyText": "<p>Karolina Stallwood har en lång erfarenhet av kanalutveckling och kommer senast från rollen som innehållsdirektör på MTG Sverige. Hon har mycket erfarenhet inom branschen och har arbetat för bland annat TV4-Gruppen, Channel 4, Channel 5 och Comedy Central UK.&nbsp;</p>\n<p>Nu är hon den som drivit den svenska lanseringen av Paramount Network.&nbsp;</p>\n<p>– Tidigare har jag lanserat kanaler för bland annat Channel 4, så jag är väldigt bekant med processen och det kreativa tänket som behövs. Den brittiska marknaden är en större marknad, så jag har tagit med mig massor av erfarenheter därifrån. Men något jag tycker är intressant med den nordiska marknaden är att den ligger före i tiden vad gäller tv-tittande och beteenden, säger Karolina Stallwood.</p>\n<p><strong>Vad lockade dig till rollen som kanalchef på Paramount?&nbsp;</strong></p>\n<p>– Mitt uppdrag är att lansera Paramount Network, och det är inte varje dag man får lansera en ny kanal. Det och att Viacom, som äger Paramount, är ett stort och framgångsrikt amerikanskt bolag var det som lockade mig. Mer konkret kommer jag att ha ansvar för allt som har med kanalen att göra, programstrategi, marknadsföring och sociala medier. Även att driva Paramount+ tjänsten framåt och utveckla den, säger hon. &nbsp;</p>\n<p>Ambitionen med Paramount Network är enligt Karolina Stallwood att vara en bred underhållningskanal där det ska finnas något för alla. Bland annat kommer kanalen innehålla sport och drama.</p>\n<p>– Det känns lyxigt att kunna erbjuda sport på vår kanal, exempelvis att vara hemmet för en av världens största MMA-tävlingar. Först kommer vi börja med Grand Prix-finalen i tungvikt mellan Fedor Emelianenko och Ryan Bader. Sen är drama en viktig genre just nu. För att vara en framgångsrik kanal måste vi ha exklusivt drama. Det första dramat är Waco, som är en kort mini-serie i sex delar. Den handlar om belägringen i Waco år 1993 som skakade världen. Vi har höga förväntningar, säger hon.&nbsp;</p>\n<p><strong>Finns det ett sug efter en bred underhållningskanal?&nbsp;</strong></p>\n<p>– Det tror jag absolut. Tittarbeteendet har förändrats, men vi konsumerar mer innehåll i dag än någonsin, och det finns en stark efterfrågan efter kvalitetsinnehåll. I och med lanseringen av Paramount Network kommer vi bredda vårt innehåll till fler plattformar. Tanken är att visa produktioner och program inom alla genrer och för alla åldrar, från Viacoms egen portfölj och från andra studior. Vi vill med detta skapa en tittarupplevelse där det finns något för alla, säger hon och fortsätter:</p>\n<p>– Alla tittar mer, men vi måste hitta vägen fram och hur vi når våra tittare på det bästa sättet. Vi måste hela tiden tänka nytt och se hur vi kan nå fram till våra tittare.&nbsp;</p>\n<p><strong>Du har jobbat länge i branschen – vad är charmen enligt dig?</strong></p>\n<p>– Innehåll, det är därför jag går upp på morgonen. För att skapa ett intressant och engagerande innehåll för våra tittare.&nbsp;</p>",
+      "id": "772ea133-738f-480c-95c9-11c64329fc3e",
+      "authors": [
+        "contentful.byline.3UeNBSTN7w1C0wuHLKa9Xi"
+      ],
+      "editorialClassifications": {
+        "newsValue": 1
+      },
+      "media": [{
+        "id": "klara.image.d89e90d8-f271-4c01-9830-2844d07e33da",
+        "internalId": "8b9a6f89-7ef8-466b-8b23-134afbd10bb0",
+        "type": "image",
+        "caption": "Karolina Stallwood ska lansera den nya tv-kanalen Paramount Network och utveckla tjänsten. ",
+        "author": "Pressbild",
+        "crops": {
+          "16x9": {
+            "x": 53.33333333333337,
+            "y": 0,
+            "width": 853.3333333333333,
+            "height": 480
+          }
+        }
+      }],
+      "publishTime": "2019-01-26T07:00:00.481Z",
+      "preamble": "HELGLÄSNING. Tv-veteranen Karolina Stallwood är dirigenten bakom förra veckans lansering av Paramount Networks linjära kanal: \"Vi måste hela tiden tänka nytt och se hur vi kan nå fram till våra tittare\", säger hon till Dagens Media."
+    },
+    "refs": {
+      "contentful.byline.3UeNBSTN7w1C0wuHLKa9Xi": {
+        "id": "3UeNBSTN7w1C0wuHLKa9Xi",
+        "sourceSystem": "contentful",
+        "contentType": "byline",
+        "document": {
+          "area": [
+            "Redaktion"
+          ],
+          "name": "John Söderberg",
+          "email": "john.soderberg@dagensmedia.se",
+          "phoneNr": "08-738 28 03",
+          "image": null,
+          "title": "Reporter"
+        }
+      },
+      "klara.image.d89e90d8-f271-4c01-9830-2844d07e33da": {
+        "id": "d89e90d8-f271-4c01-9830-2844d07e33da",
+        "sourceSystem": "klara",
+        "contentType": "image",
+        "document": {
+          "originalUrl": "https://binary-proxy-bn-masterly-dmedia-prod.internal.elx.ohoy.io/binary/66a0cf77e6d874f3fa2c6b88d0432c71d6bed5205e038d5dad7c8315fd6cfd6d",
+          "mimetype": "image/jpeg",
+          "filename": "Karolina_Stallwood.jpg"
+        }
+      },
+      "contentful.section.16SamQVVzieCYMcccQ0ckw": {
+        "id": "16SamQVVzieCYMcccQ0ckw",
+        "sourceSystem": "contentful",
+        "contentType": "section",
+        "document": {
+          "name": "Rörligt"
+        }
+      },
+      "contentful.tag.6FkW577vI44aK6gyU8akMQ": {
+        "id": "6FkW577vI44aK6gyU8akMQ",
+        "sourceSystem": "contentful",
+        "contentType": "tag",
+        "document": {
+          "name": "MTG",
+          "slug": "mtg"
+        }
+      },
+      "contentful.tag.6GqL7SgCCQcq0oSOCWao8K": {
+        "id": "6GqL7SgCCQcq0oSOCWao8K",
+        "sourceSystem": "contentful",
+        "contentType": "tag",
+        "document": {
+          "name": "TV4-gruppen",
+          "slug": "tv4-gruppen"
+        }
+      },
+      "contentful.tag.1WpGWUByLaoKEuaYeY2kYU": {
+        "id": "1WpGWUByLaoKEuaYeY2kYU",
+        "sourceSystem": "contentful",
+        "contentType": "tag",
+        "document": {
+          "name": "Bonnier",
+          "slug": "bonnier"
+        }
+      }
+    }
+  }
+}
